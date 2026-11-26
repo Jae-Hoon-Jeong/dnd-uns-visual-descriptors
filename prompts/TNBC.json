@@ -1,0 +1,365 @@
+{
+  "mistral-7b_breast_rep1": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark blue"
+    ],
+    "shape_counts": {
+      "round": 26,
+      "oval": 24,
+      "round to oval": 12,
+      "irregular": 3,
+      "round-to-oval": 2,
+      "oval to round": 1
+    },
+    "colour_counts": {
+      "pink": 39,
+      "dark blue": 2,
+      "light pink": 2,
+      "dark purple": 1,
+      "purple": 1,
+      "bluish-purple": 1,
+      "red": 1,
+      "pale-pink": 1
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. round to oval pink nuclei. round dark blue nuclei. oval dark blue nuclei. round to oval dark blue nuclei.",
+    "model": "mistral-7b",
+    "tissue": "breast",
+    "replicate": 1,
+    "source_file": "responses/TNBC/mistral-7b_breast_rep1.json"
+  },
+  "mistral-7b_breast_rep2": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "blue"
+    ],
+    "shape_counts": {
+      "round": 26,
+      "oval": 26,
+      "round to oval": 12,
+      "round-to-oval": 2,
+      "elliptical": 2,
+      "irregular": 2,
+      "oval to round": 1,
+      "elongated": 1
+    },
+    "colour_counts": {
+      "pink": 39,
+      "blue": 2,
+      "pale pink": 1,
+      "pale purple": 1,
+      "pinkish": 1,
+      "purple": 1,
+      "dark-blue": 1,
+      "dark purple": 1
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. round to oval pink nuclei. oval blue nuclei. round blue nuclei. round to oval blue nuclei.",
+    "model": "mistral-7b",
+    "tissue": "breast",
+    "replicate": 2,
+    "source_file": "responses/TNBC/mistral-7b_breast_rep2.json"
+  },
+  "mistral-7b_breast_rep3": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "light pink"
+    ],
+    "shape_counts": {
+      "oval": 25,
+      "round": 23,
+      "round to oval": 12,
+      "round-to-oval": 4,
+      "irregular": 2,
+      "rounded": 1
+    },
+    "colour_counts": {
+      "pink": 36,
+      "light pink": 4,
+      "pinkish": 3,
+      "purple": 3,
+      "dark-blue": 2,
+      "blue": 2,
+      "pale pink": 2,
+      "dark purple": 1
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. round to oval pink nuclei. oval light pink nuclei. round light pink nuclei. round to oval light pink nuclei.",
+    "model": "mistral-7b",
+    "tissue": "breast",
+    "replicate": 3,
+    "source_file": "responses/TNBC/mistral-7b_breast_rep3.json"
+  },
+  "mistral-7b_breast_rep4": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "round": 27,
+      "oval": 27,
+      "round to oval": 10,
+      "round-to-oval": 2,
+      "elongated": 1,
+      "irregular": 1,
+      "rounded": 1
+    },
+    "colour_counts": {
+      "pink": 38,
+      "dark purple": 3,
+      "blue": 2,
+      "pale pink": 2,
+      "blue-purple": 1,
+      "pale-blue": 1,
+      "pinkish": 1,
+      "light pink": 1
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. round to oval pink nuclei. oval dark purple nuclei. round dark purple nuclei. round to oval dark purple nuclei.",
+    "model": "mistral-7b",
+    "tissue": "breast",
+    "replicate": 4,
+    "source_file": "responses/TNBC/mistral-7b_breast_rep4.json"
+  },
+  "mistral-7b_breast_rep5": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "blue"
+    ],
+    "shape_counts": {
+      "oval": 28,
+      "round": 27,
+      "round to oval": 11,
+      "round-to-oval": 1,
+      "rounded": 1,
+      "elongated": 1
+    },
+    "colour_counts": {
+      "pink": 38,
+      "pale blue": 2,
+      "blue": 2,
+      "purple": 2,
+      "dark purple": 2,
+      "pale purple": 2,
+      "dark brown": 1,
+      "light purple": 1
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. round to oval pink nuclei. oval blue nuclei. round blue nuclei. round to oval blue nuclei.",
+    "model": "mistral-7b",
+    "tissue": "breast",
+    "replicate": 5,
+    "source_file": "responses/TNBC/mistral-7b_breast_rep5.json"
+  },
+  "qwen2.5-7b_breast_rep1": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "irregular",
+      "oval"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 33,
+      "irregular": 25,
+      "oval": 23,
+      "rounded": 5,
+      "ovoid": 4,
+      "irregularly shaped": 2,
+      "polygonal": 2,
+      "angular": 1
+    },
+    "colour_counts": {
+      "purple": 16,
+      "pink": 16,
+      "blue": 11,
+      "pinkish": 9,
+      "pale blue": 6,
+      "light purple": 4,
+      "violet": 4,
+      "pale pink": 3
+    },
+    "prompt": "nuclei. round pink nuclei. irregular pink nuclei. oval pink nuclei. round purple nuclei. irregular purple nuclei. oval purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "breast",
+    "replicate": 1,
+    "source_file": "responses/TNBC/qwen2.5-7b_breast_rep1.json"
+  },
+  "qwen2.5-7b_breast_rep2": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "pink",
+      "pinkish"
+    ],
+    "shape_counts": {
+      "round": 29,
+      "oval": 21,
+      "irregular": 20,
+      "rounded": 7,
+      "irregularly shaped": 5,
+      "polygonal": 3,
+      "ovoid": 2,
+      "elliptical": 2
+    },
+    "colour_counts": {
+      "pinkish": 14,
+      "pink": 14,
+      "purple": 12,
+      "blue": 9,
+      "pale blue": 7,
+      "light purple": 5,
+      "purple-blue": 2,
+      "brown": 1
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei. round pinkish nuclei. oval pinkish nuclei. irregular pinkish nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "breast",
+    "replicate": 2,
+    "source_file": "responses/TNBC/qwen2.5-7b_breast_rep2.json"
+  },
+  "qwen2.5-7b_breast_rep3": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 27,
+      "oval": 20,
+      "irregular": 18,
+      "rounded": 7,
+      "irregularly shaped": 6,
+      "ovoid": 2,
+      "elliptical": 2,
+      "spindle": 1
+    },
+    "colour_counts": {
+      "pink": 19,
+      "purple": 14,
+      "pinkish": 12,
+      "blue": 9,
+      "pale blue": 7,
+      "pale purple": 2,
+      "pale pink": 2,
+      "violet": 2
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei. round purple nuclei. oval purple nuclei. irregular purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "breast",
+    "replicate": 3,
+    "source_file": "responses/TNBC/qwen2.5-7b_breast_rep3.json"
+  },
+  "qwen2.5-7b_breast_rep4": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 27,
+      "oval": 23,
+      "irregular": 18,
+      "rounded": 10,
+      "ovoid": 4,
+      "round to oval": 2,
+      "spindle": 2,
+      "polygonal": 2
+    },
+    "colour_counts": {
+      "pink": 18,
+      "purple": 14,
+      "pinkish": 10,
+      "blue": 9,
+      "pale blue": 5,
+      "light purple": 3,
+      "light blue": 3,
+      "pale purple": 3
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei. round purple nuclei. oval purple nuclei. irregular purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "breast",
+    "replicate": 4,
+    "source_file": "responses/TNBC/qwen2.5-7b_breast_rep4.json"
+  },
+  "qwen2.5-7b_breast_rep5": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 31,
+      "oval": 19,
+      "irregular": 17,
+      "round to oval": 4,
+      "polygonal": 3,
+      "rounded": 3,
+      "ellipsoid": 2,
+      "oblong": 1
+    },
+    "colour_counts": {
+      "purple": 14,
+      "pink": 14,
+      "pinkish": 13,
+      "blue": 8,
+      "pale blue": 7,
+      "brown": 3,
+      "pale purple": 2,
+      "violet": 2
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei. round purple nuclei. oval purple nuclei. irregular purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "breast",
+    "replicate": 5,
+    "source_file": "responses/TNBC/qwen2.5-7b_breast_rep5.json"
+  }
+}

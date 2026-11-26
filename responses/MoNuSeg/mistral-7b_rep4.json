@@ -1,0 +1,521 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "instruction": "Please describe the typical visual characteristics of nuclei observed in an H&E stained colon tissue slide at 40x magnification. Focus on providing concise English phrases that capture the nuclei's geometric shape, staining color, and relative size.",
+  "format_hint": "\n\nAnswer with exactly two short noun phrases, one per line, nothing else. Each phrase must end with the word 'nuclei' and combine shape, colour and size, in the form:\n<size> <shape> <colour> nuclei\n<size> <shape> <colour> nuclei",
+  "decoding": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "seeds": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ]
+  },
+  "paper_vocab": [
+    "black",
+    "black-stained",
+    "circular",
+    "dark",
+    "dark-stained",
+    "deep",
+    "deep-purple",
+    "dense",
+    "elliptical",
+    "elongated",
+    "globular",
+    "intense",
+    "jet-black",
+    "oblong",
+    "oval",
+    "purple",
+    "rectangular",
+    "round",
+    "small",
+    "solid",
+    "spherical",
+    "tiny",
+    "violet"
+  ],
+  "summary": {
+    "seeds_run": 40,
+    "parsed": 11,
+    "fully_within_paper_vocab": 0,
+    "mean_in_vocab_ratio": 0.203,
+    "most_common_out_of_vocab": [
+      [
+        "with",
+        5
+      ],
+      [
+        "to",
+        4
+      ],
+      [
+        "chromatin",
+        3
+      ],
+      [
+        "large",
+        3
+      ],
+      [
+        "oval-shaped",
+        3
+      ],
+      [
+        "lighter",
+        2
+      ],
+      [
+        "pink-surrounded",
+        2
+      ],
+      [
+        "granular",
+        2
+      ],
+      [
+        "purple-blue",
+        2
+      ],
+      [
+        "round-to-oval",
+        2
+      ],
+      [
+        "blue",
+        2
+      ],
+      [
+        "or",
+        2
+      ],
+      [
+        "size",
+        2
+      ],
+      [
+        "well-defined",
+        2
+      ],
+      [
+        "cytoplasm",
+        2
+      ]
+    ]
+  },
+  "samples": [
+    {
+      "seed": 120,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei are typically:\n\n1. Oval or round in shape, with a smooth and well-defined border.\n2. Stained a dark purplish-blue, indicating nuclear chromatin (DNA and proteins).\n3. Relatively smaller than the overall size of the epithelial cells, occupying only a fraction of the cell's cytoplasm. The size can vary, but they are generally distinctly smaller than the surrounding cellular structures.\n4. May exhibit a more intense staining along the periphery, creating a somewhat 'halo' effect, especially in mature cells.\n5. The nucleoli, if present, appear as small, round, and slightly lighter in color compared to the surrounding nuclear chromatin. They are usually found within the nucleus, but their presence, size, and number can vary among different cell types.",
+      "raw_response": "Small, oval-shaped, dark purple nuclei with a perinuclear halo.\nNucleoli, if present, are small, round, and lighter than surrounding chromatin."
+    },
+    {
+      "seed": 121,
+      "parsed": false,
+      "free_form": "At 40x magnification in an H&E stained colon tissue slide, nuclei are typically:\n\n1. Oval or round in shape.\n2. Stained dark purple (hematoxylin) with a slightly less intense peripheral lighter purple hue (also hematoxylin).\n3. Relatively larger than surrounding cytoplasm, which appears pink (eosin).\n4. Nucleoli, if present, are small, darker purple (hematoxylin) structures within the nucleus.\n5. The nuclear-to-cytoplasmic ratio may help distinguish between different cell types. For example, goblet cells often have a larger cytoplasm due to mucin production, causing a smaller nuclear-to-cytoplasmic ratio.",
+      "raw_response": "1. Oval/round, dark purple-stained nuclei\n2. Larger than pink-colored surrounding cytoplasm (nucleoli may be present)"
+    },
+    {
+      "seed": 122,
+      "parsed": false,
+      "free_form": "At 40x magnification, nuclei in H&E-stained colon tissue typically exhibit the following visual characteristics:\n\n1. Geometric Shape: Oval or round, with some slightly irregular shapes possible due to cell division or other cellular processes.\n2. Staining Color: The nucleus appears dark purple to blue, as a result of hematoxylin staining, which binds to DNA within the nucleus.\n3. Relative Size: The size of the nucleus varies depending on the cell type, but in general, they are smaller in size compared to the entire cell. The nucleus usually takes up about 10-30% of the cell's total area.\n4. Chromatin Pattern: Chromatin appears as a finely granular, slightly less dense structure within the nucleus. In regions where the chromatin is more condensed, it can appear as small, dark dots, known as chromocenters.\n5. Nuclear Membrane: The nucleus",
+      "raw_response": "Round to oval dark purple/blue nuclei with fine granular chromatin.\nSizes can vary depending on cell type, usually smaller compared to the cell."
+    },
+    {
+      "seed": 123,
+      "parsed": true,
+      "free_form": "At 40x magnification, nuclei in H&E stained colon tissue slides typically exhibit the following visual characteristics:\n\n1. Geometric Shape: Ovoid or elongated in shape, occasionally round or irregular.\n2. Staining Color: Stained a dark purple or blue due to hematoxylin staining. The chromatin within the nucleus appears as fine, evenly distributed, lighter-stained areas (nucleoli might appear as slightly darker spots).\n3. Relative Size: Generally occupy a significant portion of the total cell size, appearing noticeably larger than the surrounding cytoplasm, which stains pink due to eosin staining.\n\nHowever, it's important to remember that variations in the size, shape, and staining intensity of nuclei may be indicative of different cell types or pathological conditions, so always interpret these characteristics within the context of a known normal reference and any surrounding tissue characteristics.",
+      "glip_prompt": "nuclei. dark purple ovoid nuclei with lighter chromatin spots. elongated pink-surrounded dark purple nuclei.",
+      "in_paper_vocab_ratio": 0.455,
+      "words_outside_paper_vocab": [
+        "chromatin",
+        "lighter",
+        "ovoid",
+        "pink-surrounded",
+        "spots",
+        "with"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 124,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide viewed at 40x magnification, the nuclei often appear as round to oval, compact structures. The nuclear chromatin stains a dark, sometimes speckled or granular, royal blue to purple color, while the surrounding cytoplasm stains a paler pink to pinkish-tan. The nucleus size varies, but is generally noticeably smaller than the surrounding cells, appearing as a well-defined round or oval dot within the cell. The nuclear-to-cytoplasmic ratio is relatively low in most normal colon cells, indicating a smaller nucleus in comparison to the cell's overall size. However, it's important to note that the appearance of the nuclei may vary in size, shape, and staining characteristics due to various factors such as cell type, disease state, and slide preparation.",
+      "raw_response": "Compact, oval to round blue-purple nuclei\n\nSmall, paler pinkish-tan surrounding cytoplasm"
+    },
+    {
+      "seed": 125,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue, the typical nuclei appear as round to oval, slightly irregular shapes. The nuclei are darkly stained, appearing purple or dark blue due to the hematoxylin staining. The nucleoli, if present, appear light pink or white, which is the result of the eosin staining. The relative size of the nuclei varies, but they generally occupy a significant portion of the cell, indicating a relatively high nuclear-to-cytoplasmic ratio. The overall appearance should be fairly uniform, with any significant deviations in shape, size, or staining suggesting potential abnormalities.",
+      "raw_response": "Round to oval, purple/dark blue stained nuclei with nucleoli appearing light pink or white.\n\nRelative size significant, occupying a portion of cell."
+    },
+    {
+      "seed": 126,
+      "parsed": false,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei appear as round to oval-shaped structures, with well-defined boundaries. The nucleus stains a dark purple to blue-stain due to the hematoxylin, while the surrounding cytoplasm stains a light pink color due to the eosin. Relative to the overall tissue architecture, the nuclei in colon epithelial cells are smaller compared to the nuclei in the underlying stromal cells. The chromatin within the nucleus gives it a somewhat granular appearance. Additionally, the presence of nucleoli, which stain slightly lighter than the rest of the nucleus, can often be observed.",
+      "raw_response": "Round to oval, dark purple-blue nuclei with light pink surrounding cytoplasm in colon tissue slide. Small relative to stromal cells at 40x magnification."
+    },
+    {
+      "seed": 127,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue slides, the nuclei are often round to oval in shape, with clear-defined edges. The nuclei typically exhibit a dark, purple-blue stain, called hematoxylin, which outlines the nucleus and its chromatin. The chromatin, the material that makes up the inside of the nucleus, is usually finely granular and light-staining pink, due to the eosin dye. The nucleus size can vary, but they are generally smaller compared to the overall size of the tissue cells, and they are easily distinguishable from the lighter-staining, pink cytoplasm. In normal colon tissue, the nuclei appear uniform in size and shape. However, abnormalities such as dysplasia or cancer may show variation in nuclei size and shape, with larger, irregularly shaped nuclei, increased chromatin, and more prominent nucleoli.",
+      "raw_response": "Small, round-to-oval, dark purple-blue outlines with light-pink chromatin nuclei.\n\nPossible variations in size, shape, and chromatin patterns observed in abnormal nuclei."
+    },
+    {
+      "seed": 128,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei typically appear as round to oval-shaped, with a well-defined, often indented border (nuclear contour). The nuclei are stained a darker purple or blue hue (nuclear staining) due to the Hematoxylin, while the surrounding cytoplasm appears a lighter pink or eosinophilic color, thanks to the Eosin. The relative size of the nuclei varies depending on the cell type, but generally, they occupy less space compared to the overall cell diameter. The nucleoli, if present, appear as small, rounded, and lighter-stained structures within the nucleus.",
+      "raw_response": "Round-to-oval, dark purple/blue nuclei\n\nCompact, eosinophilic cytoplasm surrounds\n\nThis condensed version highlights the main characteristics of the nuclei observed in H&E stained colon tissue slides at 40x magnification: their shape ("
+    },
+    {
+      "seed": 129,
+      "parsed": true,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, nuclei are typically round to oval in shape. They exhibit a dark, intense purple-blue color due to hematoxylin staining. The chromatin within the nucleus appears granular, giving it a speckled appearance. The nuclei are usually larger than other cellular structures, though their size may vary based on the type of cell. The nuclear-to-cytoplasmic ratio is generally high, indicating a higher amount of nucleus compared to the surrounding cytoplasm, which appears pink due to eosin staining. The distinctness and size of the nuclei can aid in identifying the various cell types within the tissue.",
+      "glip_prompt": "nuclei. large round-to-oval dark purple-blue nuclei with granular chromatin. intense speckled nuclei featuring high nuclear-to-cytoplasmic ratio.",
+      "in_paper_vocab_ratio": 0.154,
+      "words_outside_paper_vocab": [
+        "chromatin",
+        "featuring",
+        "granular",
+        "high",
+        "large",
+        "nuclear-to-cytoplasmic",
+        "purple-blue",
+        "ratio",
+        "round-to-oval",
+        "speckled",
+        "with"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 130,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue, the nuclei are often round or oval in shape, showcase a dark purple to blue-stained chromatin (nuclear material), and are clearly distinct from the surrounding, pink-stained cytoplasm. Compared to the cellular cytoplasm, nuclei usually appear smaller in size but still take up a notable portion of the total cell area. The overall visual effect is a distinct, centrally located, dark, and relatively uniform structure within each cell.",
+      "raw_response": "Round-to-oval, dark purple/blue-stained nuclei\n\nCompact yet noticeable within cell structure"
+    },
+    {
+      "seed": 131,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide viewed at 40x magnification, the nuclei appear as oval or round, well-defined structures. The nucleus stains a dark, deep purple or blue due to hematoxylin staining. The nucleoli, if present, are slightly lighter in color, appearing as small, faint, round, or indistinct structures within the nucleus. The surrounding cytoplasm stains a pink to reddish hue due to eosin staining. The overall size of the nuclei in colon epithelial cells can vary, but they generally appear relatively small compared to the cellular structure as a whole. The size difference between nuclei and cytoplasm can aid in assessing cellular architecture and potential abnormalities.",
+      "raw_response": "Deep purple/blue, oval/round nuclei with faintly lighter nucleoli. Small compared to surrounding cytoplasm."
+    },
+    {
+      "seed": 132,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei are typically:\n\n1. Oval or round in geometric shape.\n2. Darkly stained, appearing purple or dark blue (eosinophilic) due to eosin staining.\n3. Relatively large in comparison to the surrounding cytoplasm, which is usually lighter in color and stains pink (hematoxylin stained).\n4. Clearly visible and distinct, with a well-defined boundary (nuclear membrane).\n5. May contain small, lighter specks (nucleoli) which are less prominent but occasionally visible.\n6. Generally uniform in size, shape, and staining pattern among cells within a specific region of the tissue, indicating normalcy.\n7. A moderate amount of chromatin is visible within the nucleus, creating a slightly granular appearance.\n\nThese characteristics serve as a general guideline, as deviations from the described features may indicate abnormalities that",
+      "raw_response": "Dark, oval or round purple-blue nuclei\nRelatively large, granular light pink-stained surrounding cytoplasm."
+    },
+    {
+      "seed": 133,
+      "parsed": false,
+      "free_form": "In H&E stained colon tissue at 40x magnification, the nuclei are typically round to oval in shape, with a well-defined border. The nuclear chromatin, appearing dark purple or blue, is usually evenly distributed, giving the nucleus a homogeneous staining pattern. The relative size of the nucleus is moderate, often larger than the surrounding epithelial cell cytoplasm, which is pinkish in color. Nucleoli, if present, appear as small, darker stained, round or oval structures within the nucleus. The overall appearance suggests a regular and uniform nuclear structure, indicative of healthy colonic epithelial cells.",
+      "raw_response": "Round to oval, moderate-sized, dark purple-blue nuclei\n\nNucleoli are small, darker stained, round or oval structures within them."
+    },
+    {
+      "seed": 134,
+      "parsed": false,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei are typically oval or round in shape, with a well-defined, smooth border. The nuclei appear dark purple or black due to the hematoxylin staining, while the surrounding cytoplasm stains a light pink color due to the eosin staining. The relative size of the nuclei varies depending on the cell type, but they generally occupy a significant portion of the cell and are smaller than the overall cell diameter. The chromatin within the nucleus is generally dense, giving the nucleus a distinct, non-uniform staining pattern. It's important to note that the specific characteristics may vary depending on the health and condition of the tissue, and abnormalities in size, shape, or staining pattern may indicate pathological changes.",
+      "raw_response": "Oval or round, dark purple nuclei\n\nSmaller than cell diameter, light pink surrounding cytoplasm."
+    },
+    {
+      "seed": 135,
+      "parsed": true,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei often appear oval or rounded, with a relatively dark and intense purple or blue-stained nuclear chromatin (nucleus content) against a lighter pink-colored, non-stained cytoplasm (cell background). The nuclei are typically visible with a clear border and may vary in size, but tend to be relatively large compared to the size of the entire cell. Their size may help distinguish between normal and abnormal cells, with larger nuclei potentially indicating hyperplasia or neoplasia.",
+      "glip_prompt": "nuclei. oval to round dark purple/blue nuclei. varying sizes relative to cell clear-bordered nuclei.",
+      "in_paper_vocab_ratio": 0.333,
+      "words_outside_paper_vocab": [
+        "blue",
+        "cell",
+        "clear-bordered",
+        "relative",
+        "sizes",
+        "to",
+        "varying"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 136,
+      "parsed": false,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei are typically oval or round in shape, with a distinct border and a dense, dark-stained area known as the nucleolus. The surrounding cytoplasm is lighter in color compared to the nucleus, usually a pale pink or light blue, due to eosin and hematoxylin staining, respectively. The nuclei are relatively large compared to the overall size of the cell, occupying a significant portion of the cell's volume. The size and shape can vary among different cell types within the tissue, with goblet cells having larger, rounder nuclei, while columnar epithelial cells have smaller, more elongated nuclei. The consistency and regularity of the nuclei's shape and size can provide insight into the health and differentiation of the tissue.",
+      "raw_response": "Round to oval, dark-stained nucleoli in light cytoplasm nuclei\n\nSmall to large, elongated or round, pale to dark stained nuclei"
+    },
+    {
+      "seed": 137,
+      "parsed": true,
+      "free_form": "In a H&E-stained colon tissue slide under 40x magnification, the nuclei appear as round to oval structures, with well-defined edges. The nuclear staining is a dark, dense, purplish-blue hue, while the surrounding cytoplasm stains a pale pink. The nuclei generally occupy a significant portion of the cell, giving them a relatively large size compared to the surrounding cytoplasm. The chromatin within the nuclei may present as a homogeneous, fine-grained pattern or display a clumping or swirling pattern, known as nuclear polymorphism.",
+      "glip_prompt": "nuclei. round to oval purplish-blue-stained nuclei with large size. homogeneous or clumped pink-surrounded nuclei with well-defined edges.",
+      "in_paper_vocab_ratio": 0.143,
+      "words_outside_paper_vocab": [
+        "clumped",
+        "edges",
+        "homogeneous",
+        "large",
+        "or",
+        "pink-surrounded",
+        "purplish-blue-stained",
+        "size",
+        "to",
+        "well-defined",
+        "with"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 138,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E-stained colon tissue, the nuclei are typically round to oval in shape, with a dark, intense purple or deep blue color due to the hematoxylin stain. The nucleoli, if present, appear as small, distinct, light-staining spots within the nucleus, which contrast with the darker background. The relative size of the nuclei varies but is generally larger compared to other cell types in the tissue, such as the surrounding epithelial cells. The nuclear membrane is clearly visible as a thin, pink line separating the nucleus from the cytoplasm, which stains a lighter pink due to the eosin stain. Overall, the nuclei in H&E-stained colon tissue exhibit a distinct, well-defined appearance that aids in the identification of normal and abnormal cellular structures.",
+      "raw_response": "Large, round-to-oval, deep purple-stained nuclei with light-staining nucleoli.\n\nWell-defined, pink-rimmed, larger nuclei in contrast to surrounding cells."
+    },
+    {
+      "seed": 139,
+      "parsed": false,
+      "free_form": "In a 40x magnification H&E stained colon tissue slide, the nuclei appear as round to oval in shape with a distinct, dark-stained boundary (nuclear membrane) and a lighter, less dense interior (nucleoplasm). The nucleoli, if present, appear as small, dark-stained round or oval structures within the nucleus. The nuclei are generally larger compared to the surrounding cell cytoplasm, but their exact size can vary depending on the cell type. The cytoplasm, stained pink to red in H&E, surrounds the nucleus and may contain various organelles and other cellular components.",
+      "raw_response": "Round to oval-shaped, dark-stained nuclei with lighter nucleoplasm and visible nucleoli.\n\nLarger, pinkish-stained cytoplasm surrounds the nuclei."
+    },
+    {
+      "seed": 140,
+      "parsed": false,
+      "free_form": "At 40x magnification, the nuclei in H&E stained colon tissue are typically:\n\n1. Round or oval in geometric shape, with some variation in shape, such as being slightly irregular or elongated.\n2. Darkly stained, appearing purple or deep pink due to the eosin staining.\n3. Relatively large, occupying a significant portion of the cell, giving the appearance of a \"dark blob\" within the cell cytoplasm, which is stained light pink due to the hematoxylin staining.\n4. Uniform in size, with only occasional variation in size among adjacent nuclei, indicating normal cell populations.\n5. Homogeneous in appearance, without visible nucleoli or prominent chromatin clumping, indicating normal, well-differentiated cells.\n6. Centrally located within the cell, with occasional nuclei showing a slight push-off to one side, especially in areas with a crowded arrangement of cells.\n7. Nuclear membrane",
+      "raw_response": "Round to oval, dark purple nuclei.\nLarge, central within cells."
+    },
+    {
+      "seed": 141,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei are typically:\n\n1. Round or oval in geometric shape.\n2. Darkly stained, appearing purple or dark blue (hematoxylin staining).\n3. Relatively large in size, taking up a significant portion of the cell's volume.\n4. Nucleoli (if present) are identified as small, distinct, lightly stained, or pinkish-gray areas within the nucleus (eosin staining).\n5. Chromatin is visible as a fine, speckled or granular pattern within the nucleus.\n6. The nuclear membrane is slightly visible, appearing as a thin, transparent boundary surrounding the nucleus.\n7. Nuclei may have a more irregular shape in abnormal cells, such as those indicative of inflammation or cancer.",
+      "raw_response": "Large, purple/dark blue, round or oval nuclei with speckled chromatin and defined nucleoli.\n\nVariable shape and color (irregular, pinkish-gray) in abnormal nuclei."
+    },
+    {
+      "seed": 142,
+      "parsed": false,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei are typically round to oval in shape. The nuclear staining is intense and deep purple, whereas the cytoplasm appears pinkish-stained or colorless. The relative size of the nuclei in colon epithelial cells is moderate, often slightly smaller than the size of the entire cell, but they may appear larger in the case of abnormal or hyperplastic cells. The nuclear-cytoplasmic ratio in normal colon tissue cells is generally high, with the nucleus taking up a significant portion of the cell's volume. Additionally, the chromatin pattern is usually evenly distributed and finely textured, with the presence of nucleoli which appear as small, dark-staining, round or oval structures within the nucleus.",
+      "raw_response": "Round to oval, deep purple-stained nuclei with moderate size.\n\nFine-textured, evenly-distributed chromatin pattern nuclei."
+    },
+    {
+      "seed": 143,
+      "parsed": false,
+      "free_form": "At 40x magnification in an H&E stained colon tissue slide, the nuclei are often round to oval in shape. The nucleus stains a deep purple or dark blue hue due to hematoxylin staining, while the surrounding cytoplasm stains pinkish-red due to eosin staining. The relative size of the nuclei varies depending on the cell type, but in normal colon tissue, they are typically small to medium in size and are easily distinguishable from the surrounding tissue. However, in abnormal or pathological conditions, changes in nuclear size, shape, or staining pattern may be observed. For instance, enlarged, irregularly shaped, or hyperchromatic nuclei can be indicative of cellular abnormalities like dysplasia or cancer.",
+      "raw_response": "Small to medium, round to oval purple/dark blue nuclei.\n\nPinkish-red surrounding cytoplasm."
+    },
+    {
+      "seed": 144,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, nuclei appear as round to oval-shaped structures with a well-defined border. The nuclei are dark and distinct due to the purple-stained chromatin, while the surrounding cytoplasm is a paler pink color, thanks to the eosin stain. Relative to the size of the entire cell, the nuclei are relatively large and occupy a significant portion of the cell's volume.",
+      "raw_response": "Dark purple-stained oval nuclei with large size.\n\nPale pink surrounding cytoplasm in the colon tissue slide."
+    },
+    {
+      "seed": 145,
+      "parsed": true,
+      "free_form": "In a H&E-stained colon tissue slide at 40x magnification, the nuclei typically appear as oval or rounded, compact structures, with a dark, intense purple-blue staining due to hematoxylin. The surrounding cytoplasm stains a lighter pinkish color, due to eosin. The nuclei are generally slightly smaller compared to the overall cell size, and a distinct boundary between the nucleus and cytoplasm is visible. Some variations in size, shape, and staining intensity may be present, depending on the cell type and the health of the tissue.",
+      "glip_prompt": "nuclei. compact oval-to-rounded purple-blue nuclei. small-to-average-sized light pink cytoplasm surrounding nuclei.",
+      "in_paper_vocab_ratio": 0.0,
+      "words_outside_paper_vocab": [
+        "compact",
+        "cytoplasm",
+        "light",
+        "oval-to-rounded",
+        "pink",
+        "purple-blue",
+        "small-to-average-sized",
+        "surrounding"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 146,
+      "parsed": false,
+      "free_form": "In H&E stained colon tissue slides, the nuclei at 40x magnification are typically round to oval in shape with a relatively uniform size, showing a distinct, dark purple to black chromatin pattern, often referred to as the \"nucleolus-free zone\" or \"peripheral chromatin\". The nucleoli, when present, appear as small, round, and lightly stained, usually placed in the nucleus towards the periphery, appearing lighter in color compared to the rest of the nucleus, staining a pale blue or pink. The cytoplasm surrounding the nucleus is usually pink or slightly paler, with a slightly granular texture due to RBCs, goblet cells, and other cellular components. The overall appearance is that of well-defined, uniform-sized nuclei within the tissue architecture.",
+      "raw_response": "Round-to-oval, dark purple-black nucleoli-free zone nuclei\n\nOval, with small, pale blue or pink nucleoli"
+    },
+    {
+      "seed": 147,
+      "parsed": true,
+      "free_form": "In a H&E stained colon tissue slide at 40x magnification, the nuclei typically appear as round or oval-shaped structures, with a dark, intense blue-purple stain due to hematoxylin (H) staining. The cytoplasm, on the other hand, appears pinkish-red due to eosin (E) staining. The nuclei generally have a clear, sharp border, and their size may vary depending on the cell type. For example, in normal colon epithelial cells, the nuclei are smaller and compact, while in more mature cells, such as Paneth cells, they can be larger and have a more irregular shape with a prominent nucleolus. It's also common to observe anisokaryosis, where the nuclei may vary slightly in size within a single cell type. However, if the nuclei appear very irregular, overly large, or have an increased mitotic figure count, this may indicate abnormalities such as dysplasia or malignancy",
+      "glip_prompt": "nuclei. round or oval-shaped dark blue-purple nuclei. irregularly-shaped pinkish-red nuclei.",
+      "in_paper_vocab_ratio": 0.286,
+      "words_outside_paper_vocab": [
+        "blue-purple",
+        "irregularly-shaped",
+        "or",
+        "oval-shaped",
+        "pinkish-red"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 148,
+      "parsed": true,
+      "free_form": "At 40x magnification in an H&E stained colon tissue slide, the nuclei typically exhibit the following visual characteristics:\n\n1. Round or oval geometric shape, often with a slightly indented or indistinct nucleolus.\n2. Intense, dark purple to blue-stained nucleus (hematoxylin staining).\n3. Relatively smaller size compared to the surrounding cells, appearing as a compact, well-defined center of the cell.\n4. Chromatin appears relatively dense and evenly distributed throughout the nucleus, with no noticeable clumping or vacuoles.\n5. Clear border between the nucleus and the surrounding cytoplasm, which appears pink due to eosin staining.\n6. Nuclei in normal colon cells are usually uniform in size and shape, with minimal variation between cells.\n7. Abnormal changes in shape, size, or staining patterns may indicate pathology, such as cancerous cells, which can show irregular shapes, larger size,",
+      "glip_prompt": "nuclei. round/oval deep-purple-stained uniform-sized nuclei. irregular-shaped pink-outlined enlarged nuclei.",
+      "in_paper_vocab_ratio": 0.286,
+      "words_outside_paper_vocab": [
+        "deep-purple-stained",
+        "enlarged",
+        "irregular-shaped",
+        "pink-outlined",
+        "uniform-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 149,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue, the nuclei appear as round to oval-shaped structures with defined borders. The nuclear staining is typically dark and purple (hematoxylin) while the cytoplasm, surrounding the nucleus, stains a lighter pink (eosin). The relative size of the nuclei in colon epithelial cells varies, but they often appear smaller compared to the size of the overall cell. In normal colon tissue, the nuclei are usually centrally located within the cell. In abnormal conditions such as dysplasia or cancer, nuclei may show irregular shapes, larger size, increased staining intensity, or may become more dispersed towards the periphery of the cells.",
+      "raw_response": "Round-to-oval, dark-purple stained nuclei\n\nSmall to moderate sized, centralized in cells (normal colon tissue)"
+    },
+    {
+      "seed": 150,
+      "parsed": false,
+      "free_form": "At 40x magnification in an H&E stained colon tissue slide, the nuclei are typically:\n\n1. Oval or round in geometric shape.\n2. Darkly stained purple (nucleus) and lighter pink (chromatin) in the H&E staining.\n3. Slightly smaller compared to the surrounding tissue cells, though size can vary depending on the cell type.\n4. Contain distinct, darker purple nucleoli (one or more) which appear as small dots or specks within the nucleus.\n5. Nuclear membrane is visible as a thin, distinct line around the perimeter.\n6. May exhibit irregularities, such as enlargement (nuclear pleomorphism) or abnormal shape (nuclear hyperchromasia or karyorrhexis), which can be indicative of various pathological conditions.",
+      "raw_response": "Oval to round, dark purple-stained nuclei.\nSlightly smaller with distinct nucleoli."
+    },
+    {
+      "seed": 151,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue, nuclei typically exhibit the following visual characteristics:\n\n1. Round or oval geometric shape, often with a smooth contour.\n2. Dark, purplish-blue to dark blue color due to hematoxylin staining.\n3. Relative size: Moderate to large in comparison to the surrounding cytoplasm, which appears pinkish-red due to eosin staining.\n4. Chromatin, consisting of genetic material, appears as a fine, evenly dispersed, lighter blue-gray pattern within the nucleus.\n5. Nucleoli, if present, appear as one or more darker, distinct round or oval areas within the nucleus, ranging from small to medium-sized.",
+      "raw_response": "Large, dark-blue, round/oval nuclei with evenly dispersed light-blue-gray chromatin.\n\nSmall to medium-sized, darker nucleoli, occasionally present."
+    },
+    {
+      "seed": 152,
+      "parsed": true,
+      "free_form": "At 40x magnification in H&E stained colon tissue slides, nuclei are typically:\n\n1. Round to oval in geometric shape.\n2. Stained dark and purple-blue (nuclear staining) with a visible, well-defined nucleolus appearing light-pink (eosinophilic) due to counterstaining.\n3. Relatively large, with a significant proportion of the cell's total volume.\n4. Centrally located within the cell, although some degree of nuclear polymorphism may be present in normal tissue.\n5. Generally uniform in size and shape, with variations indicating potential abnormalities such as hyperplasia or dysplasia.\n6. The cytoplasm surrounding the nuclei may appear pink (eosinophilic) or clear (cytoplasmic staining), depending on the cell type.\n7. Nuclear membrane is usually distinct and unremarkable.\n8. Chromatin distribution within the nucle",
+      "glip_prompt": "nuclei. large dark-purple/blue nuclei with central light-pink nucleoli. round to oval-shaped uniform-sized eosinophilic cytoplasmic nuclei.",
+      "in_paper_vocab_ratio": 0.077,
+      "words_outside_paper_vocab": [
+        "blue",
+        "central",
+        "cytoplasmic",
+        "dark-purple",
+        "eosinophilic",
+        "large",
+        "light-pink",
+        "nucleoli",
+        "oval-shaped",
+        "to",
+        "uniform-sized",
+        "with"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 153,
+      "parsed": true,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei typically exhibit the following visual characteristics:\n\n1. Oval or round geometric shape with occasionally irregular or slightly indented borders.\n2. Dark, deep-purple to dark-blue staining (hematoxylin), indicative of DNA and nuclear proteins.\n3. The nuclei are usually larger than the surrounding cells' cytoplasm, giving them a distinct and prominent appearance.\n4. The chromatin (genetic material within the nucleus) appears as a faintly stained, slightly granular texture (also due to hematoxylin).\n5. Nucleoli (prominent dark-stained areas within the nucleus) may be visible as distinct, round, or oval-shaped structures, though their presence can be variable.\n6. In a healthy colon tissue, the nuclear membrane is well-defined, and the cytoplasm stains a lighter pink color (eosin).\n7.",
+      "glip_prompt": "nuclei. oval-shaped deep-purple nuclei with larger size. granular faint-blue nuclei with well-defined borders.",
+      "in_paper_vocab_ratio": 0.1,
+      "words_outside_paper_vocab": [
+        "borders",
+        "faint-blue",
+        "granular",
+        "larger",
+        "oval-shaped",
+        "size",
+        "well-defined",
+        "with"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 154,
+      "parsed": false,
+      "free_form": "At 40x magnification, nuclei in H&E stained colon tissue are typically round to oval in shape, with a clearly defined border. The staining color of the nucleus is usually dark purple or dark blue, while the surrounding cytoplasm is pink. The relative size of the nucleus varies among different cell types but generally occupies a significant portion of the cell, appearing larger compared to the pale pink cytoplasm. In normal colon tissue, the nuclei often appear uniform in size and shape, with no significant variation. However, in cases of dysplasia or malignancy, the nuclei may show irregularities such as anisokaryosis (variation in nuclear size) or pleomorphism (variation in nuclear shape).",
+      "raw_response": "Round-to-oval, dark purple/blue nuclei\n\nSignificantly larger than cytoplasm"
+    },
+    {
+      "seed": 155,
+      "parsed": false,
+      "free_form": "At 40x magnification in an H&E stained colon tissue slide, nuclei typically appear as round to oval, well-defined structures with a dense, dark purple-blue stained chromatin (nucleus itself) and a clear, colorless, or pale yellow perinuclear region (cytoplasm). The relative size of the nucleus varies across different cell types, but generally, it takes up a significant proportion of the total cell size, often appearing larger compared to cells in other tissues. The distinctness of the border between the nucleus and cytoplism, known as the nuclear membrane, is also clearly visible. Some nuclear irregularities, such as nucleoli (small, darker-staining regions within the nucleus), may also be observed in some cell types.",
+      "raw_response": "Round to oval, dark purple-blue stained nuclei with clear perinuclear region. Significant cellular proportion, distinct nuclear border."
+    },
+    {
+      "seed": 156,
+      "parsed": false,
+      "free_form": "At 40x magnification in H&E stained colon tissue, the nuclei are typically round to oval in shape with a clear and distinct boundary, also known as a nuclear membrane. The staining color for the nucleus is usually dark purple due to the presence of hematoxylin, while the cytoplasm appears pink due to the eosin stain. The size of the nuclei varies depending on the cell type, but they are generally smaller than the entire cell. In normal colon tissue, the nuclei are typically uniform in size and distribution. In some pathological conditions, the nuclei might appear enlarged, irregularly shaped, or abnormally clustered.",
+      "raw_response": "Round to oval dark purple nuclei with pink cytoplasm.\n\nUniform in size and shape, varying slightly based on cell type."
+    },
+    {
+      "seed": 157,
+      "parsed": true,
+      "free_form": "In a 40x magnified H&E stained colon tissue slide, the nuclei are often round to oval in shape with a distinct boundary, exhibiting a dark, purplish-blue color due to Hematoxylin staining. The nucleoli, if present, appear as small, faint, light-pink or white specks due to Eosin staining. The nuclei are typically smaller compared to the surrounding colonic crypts, and their size varies depending on the cell type, with larger nuclei often indicative of more differentiated cells.",
+      "glip_prompt": "nuclei. purplish-blue round to oval nuclei. larger more differentiated nuclei exhibit lighter nucleoli.",
+      "in_paper_vocab_ratio": 0.2,
+      "words_outside_paper_vocab": [
+        "differentiated",
+        "exhibit",
+        "larger",
+        "lighter",
+        "more",
+        "nucleoli",
+        "purplish-blue",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 158,
+      "parsed": true,
+      "free_form": "At 40x magnification, the nuclei in H&E stained colon tissue appear as round to oval-shaped structures with distinct, well-defined borders. The staining color typically reveals a darker, dense purple hue, referred to as hematoxylin staining, with a less intensely stained, lighter pink or beige background (eosin staining). The relative size of the nuclei varies, but they usually occupy less than half of the total cell volume, appearing smaller compared to the surrounding cytoplasm. The chromatin, composed of DNA and proteins, within the nuclei may exhibit a speckled or granular appearance, referred to as a salt-and-pepper pattern. Abnormalities in size, shape, or chromatin distribution can provide clues to cellular abnormalities, such as hyperchromasia, nuclear pleomorphism, or increased mitotic figures, which may indicate precancerous or cancerous conditions.",
+      "glip_prompt": "nuclei. round-to-oval dark purple hematoxylin-stained nuclei. salt-and-pepper chromatin smaller than surrounding cytoplasm nuclei.",
+      "in_paper_vocab_ratio": 0.2,
+      "words_outside_paper_vocab": [
+        "chromatin",
+        "cytoplasm",
+        "hematoxylin-stained",
+        "round-to-oval",
+        "salt-and-pepper",
+        "smaller",
+        "surrounding",
+        "than"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 159,
+      "parsed": false,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, the nuclei are typically round to oval in shape, with some variability in geometry due to cell types. They appear dark-stained (purple-blue) due to the hematoxylin, while the surrounding cytoplasm appears pinkish due to eosin. The nuclei are generally smaller compared to the overall field of view, with some larger cells (such as Paneth cells) exhibiting relatively larger nuclei. The chromatin within the nuclei is finely granular and gives the nuclei a speckled appearance. Nuclear membranes are usually distinct and clear.",
+      "raw_response": "Round-to-oval, dark-purple/blue nuclei with finely granular chromatin.\n\nSmaller compared to field of view, pinkish cytoplasm surrounding."
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "tissue": "colon",
+  "instruction": "Please describe the typical visual characteristics of nuclei observed in an H&E stained colon tissue slide at 40x magnification. Focus on providing concise English phrases that capture the nuclei's geometric shape, staining color, and relative size.",
+  "format_hint": "\n\nAnswer with exactly two short noun phrases, one per line, nothing else. Each phrase must end with the word 'nuclei' and combine shape, colour and size, in the form:\n<size> <shape> <colour> nuclei\n<size> <shape> <colour> nuclei",
+  "decoding": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "seeds": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199
+    ]
+  },
+  "transformers_version": "4.57.6",
+  "torch_version": "2.6.0+cu124",
+  "samples": [
+    {
+      "seed": 160,
+      "parsed": [
+        "small round pale purple nuclei",
+        "medium oval light pink nuclei"
+      ],
+      "free_form": "small round pale purple nuclei\nmedium oval light pink nuclei",
+      "raw_response": "small round pale purple nuclei\nmedium oval light pink nuclei"
+    },
+    {
+      "seed": 161,
+      "parsed": [
+        "round pale purple nuclei",
+        "small round blue nuclei"
+      ],
+      "free_form": "round pale purple nuclei\nsmall round blue nuclei",
+      "raw_response": "round pale purple nuclei\nsmall round blue nuclei"
+    },
+    {
+      "seed": 162,
+      "parsed": [
+        "small round light purple nuclei",
+        "medium-oblong pinkish-grey nuclei"
+      ],
+      "free_form": "small round light purple nuclei\nmedium-oblong pinkish-grey nuclei",
+      "raw_response": "small round light purple nuclei\nmedium-oblong pinkish-grey nuclei"
+    },
+    {
+      "seed": 163,
+      "parsed": [
+        "round to oval pale blue nuclei",
+        "small to medium round to oval pink nuclei"
+      ],
+      "free_form": "round to oval pale blue nuclei\nsmall to medium round to oval pink nuclei",
+      "raw_response": "round to oval pale blue nuclei\nsmall to medium round to oval pink nuclei"
+    },
+    {
+      "seed": 164,
+      "parsed": [
+        "small round pink nuclei",
+        "irregular to oval pale purple nuclei"
+      ],
+      "free_form": "small round pink nuclei\nirregular to oval pale purple nuclei",
+      "raw_response": "small round pink nuclei\nirregular to oval pale purple nuclei"
+    },
+    {
+      "seed": 165,
+      "parsed": [
+        "small round light blue nuclei",
+        "irregular to polygonal light purple nuclei"
+      ],
+      "free_form": "small round light blue nuclei\nirregular to polygonal light purple nuclei",
+      "raw_response": "small round light blue nuclei\nirregular to polygonal light purple nuclei"
+    },
+    {
+      "seed": 166,
+      "parsed": [
+        "small ovoid pink nuclei",
+        "round to oval light purple nuclei"
+      ],
+      "free_form": "small ovoid pink nuclei\nround to oval light purple nuclei",
+      "raw_response": "small ovoid pink nuclei\nround to oval light purple nuclei"
+    },
+    {
+      "seed": 167,
+      "parsed": [
+        "moderate-sized round eosinophilic nuclei",
+        "small-to-medium oval azure-blue nuclei"
+      ],
+      "free_form": "moderate-sized round eosinophilic nuclei\nsmall-to-medium oval azure-blue nuclei",
+      "raw_response": "moderate-sized round eosinophilic nuclei\nsmall-to-medium oval azure-blue nuclei"
+    },
+    {
+      "seed": 168,
+      "parsed": [
+        "small round purple nuclei",
+        "moderate oval pink nuclei"
+      ],
+      "free_form": "small round purple nuclei\nmoderate oval pink nuclei",
+      "raw_response": "small round purple nuclei\nmoderate oval pink nuclei"
+    },
+    {
+      "seed": 169,
+      "parsed": [
+        "small round purple nuclei",
+        "moderate-sized irregular grayish-blue nuclei"
+      ],
+      "free_form": "small round purple nuclei\nmoderate-sized irregular grayish-blue nuclei",
+      "raw_response": "small round purple nuclei\nmoderate-sized irregular grayish-blue nuclei"
+    },
+    {
+      "seed": 170,
+      "parsed": [
+        "irregular to slightly elongated purple nuclei"
+      ],
+      "free_form": "small to medium sized round to oval pink nuclei\nirregular to slightly elongated purple nuclei",
+      "raw_response": "small to medium sized round to oval pink nuclei\nirregular to slightly elongated purple nuclei"
+    },
+    {
+      "seed": 171,
+      "parsed": [
+        "small round purple nuclei",
+        "medium ellipsoid pink nuclei"
+      ],
+      "free_form": "small round purple nuclei\nmedium ellipsoid pink nuclei",
+      "raw_response": "small round purple nuclei\nmedium ellipsoid pink nuclei"
+    },
+    {
+      "seed": 172,
+      "parsed": [
+        "small round pale blue nuclei",
+        "irregular to oval light purple nuclei"
+      ],
+      "free_form": "small round pale blue nuclei\nirregular to oval light purple nuclei",
+      "raw_response": "small round pale blue nuclei\nirregular to oval light purple nuclei"
+    },
+    {
+      "seed": 173,
+      "parsed": [
+        "small round light purple nuclei",
+        "medium oval light pink nuclei"
+      ],
+      "free_form": "small round light purple nuclei\nmedium oval light pink nuclei",
+      "raw_response": "small round light purple nuclei\nmedium oval light pink nuclei"
+    },
+    {
+      "seed": 174,
+      "parsed": [
+        "round to oval pinkish nuclei",
+        "small to medium sized pale blue nuclei"
+      ],
+      "free_form": "round to oval pinkish nuclei\nsmall to medium sized pale blue nuclei",
+      "raw_response": "round to oval pinkish nuclei\nsmall to medium sized pale blue nuclei"
+    },
+    {
+      "seed": 175,
+      "parsed": [
+        "small round blue nuclei",
+        "medium oval pale purple nuclei"
+      ],
+      "free_form": "small round blue nuclei\nmedium oval pale purple nuclei",
+      "raw_response": "small round blue nuclei\nmedium oval pale purple nuclei"
+    },
+    {
+      "seed": 176,
+      "parsed": [
+        "small round eosinophilic nuclei",
+        "irregular to polygonal basophilic nuclei"
+      ],
+      "free_form": "small round eosinophilic nuclei\nirregular to polygonal basophilic nuclei",
+      "raw_response": "small round eosinophilic nuclei\nirregular to polygonal basophilic nuclei"
+    },
+    {
+      "seed": 177,
+      "parsed": [
+        "small elliptical blue nuclei",
+        "medium round purple nuclei"
+      ],
+      "free_form": "small elliptical blue nuclei\nmedium round purple nuclei",
+      "raw_response": "small elliptical blue nuclei\nmedium round purple nuclei"
+    },
+    {
+      "seed": 178,
+      "parsed": [
+        "round to oval pale purple nuclei",
+        "medium-sized round blue nuclei"
+      ],
+      "free_form": "round to oval pale purple nuclei\nmedium-sized round blue nuclei",
+      "raw_response": "round to oval pale purple nuclei\nmedium-sized round blue nuclei"
+    },
+    {
+      "seed": 179,
+      "parsed": [
+        "small round pink nuclei",
+        "medium oval light purple nuclei"
+      ],
+      "free_form": "small round pink nuclei\nmedium oval light purple nuclei",
+      "raw_response": "small round pink nuclei\nmedium oval light purple nuclei"
+    },
+    {
+      "seed": 180,
+      "parsed": [
+        "round pale blue nuclei",
+        "small round pink nuclei"
+      ],
+      "free_form": "round pale blue nuclei\nsmall round pink nuclei",
+      "raw_response": "round pale blue nuclei\nsmall round pink nuclei"
+    },
+    {
+      "seed": 181,
+      "parsed": [
+        "small round pale brown nuclei",
+        "medium oval light purple nuclei"
+      ],
+      "free_form": "small round pale brown nuclei\nmedium oval light purple nuclei",
+      "raw_response": "small round pale brown nuclei\nmedium oval light purple nuclei"
+    },
+    {
+      "seed": 182,
+      "parsed": [
+        "small round purple nuclei",
+        "irregular to polygonal pink nuclei"
+      ],
+      "free_form": "small round purple nuclei\nirregular to polygonal pink nuclei",
+      "raw_response": "small round purple nuclei\nirregular to polygonal pink nuclei"
+    },
+    {
+      "seed": 183,
+      "parsed": [
+        "small ellipsoidal pale purple nuclei",
+        "medium circular light blue nuclei"
+      ],
+      "free_form": "small ellipsoidal pale purple nuclei\nmedium circular light blue nuclei",
+      "raw_response": "small ellipsoidal pale purple nuclei\nmedium circular light blue nuclei"
+    },
+    {
+      "seed": 184,
+      "parsed": [
+        "small circular light purple nuclei",
+        "medium elliptical pink nuclei"
+      ],
+      "free_form": "small circular light purple nuclei\nmedium elliptical pink nuclei",
+      "raw_response": "small circular light purple nuclei\nmedium elliptical pink nuclei"
+    },
+    {
+      "seed": 185,
+      "parsed": [
+        "small round eosinophilic nuclei",
+        "medium oval light blue nuclei"
+      ],
+      "free_form": "small round eosinophilic nuclei\nmedium oval light blue nuclei",
+      "raw_response": "small round eosinophilic nuclei\nmedium oval light blue nuclei"
+    },
+    {
+      "seed": 186,
+      "parsed": [
+        "small round purple nuclei",
+        "medium polygonal pinkish-grey nuclei"
+      ],
+      "free_form": "small round purple nuclei\nmedium polygonal pinkish-grey nuclei",
+      "raw_response": "small round purple nuclei\nmedium polygonal pinkish-grey nuclei"
+    },
+    {
+      "seed": 187,
+      "parsed": [
+        "small round eosinophilic nuclei",
+        "uniformly sized greyish blue nuclei"
+      ],
+      "free_form": "small round eosinophilic nuclei\nuniformly sized greyish blue nuclei",
+      "raw_response": "small round eosinophilic nuclei\nuniformly sized greyish blue nuclei"
+    },
+    {
+      "seed": 188,
+      "parsed": [
+        "small round purple nuclei",
+        "medium oval pink nuclei"
+      ],
+      "free_form": "small round purple nuclei\nmedium oval pink nuclei",
+      "raw_response": "small round purple nuclei\nmedium oval pink nuclei"
+    },
+    {
+      "seed": 189,
+      "parsed": [
+        "small round purple nuclei",
+        "compact oval purple nuclei"
+      ],
+      "free_form": "small round purple nuclei\ncompact oval purple nuclei",
+      "raw_response": "small round purple nuclei\ncompact oval purple nuclei"
+    },
+    {
+      "seed": 190,
+      "parsed": [
+        "small oval pink nuclei",
+        "medium round purple nuclei"
+      ],
+      "free_form": "small oval pink nuclei\nmedium round purple nuclei",
+      "raw_response": "small oval pink nuclei\nmedium round purple nuclei"
+    },
+    {
+      "seed": 191,
+      "parsed": [
+        "small round basophilic nuclei",
+        "medium to large oval eosinophilic nuclei"
+      ],
+      "free_form": "small round basophilic nuclei\nmedium to large oval eosinophilic nuclei",
+      "raw_response": "small round basophilic nuclei\nmedium to large oval eosinophilic nuclei"
+    },
+    {
+      "seed": 192,
+      "parsed": [
+        "small oval pink nuclei",
+        "medium ellipsoid purple nuclei"
+      ],
+      "free_form": "small oval pink nuclei\nmedium ellipsoid purple nuclei",
+      "raw_response": "small oval pink nuclei\nmedium ellipsoid purple nuclei"
+    },
+    {
+      "seed": 193,
+      "parsed": [
+        "small elliptical pale purple nuclei",
+        "medium circular pinkish gray nuclei"
+      ],
+      "free_form": "small elliptical pale purple nuclei\nmedium circular pinkish gray nuclei",
+      "raw_response": "small elliptical pale purple nuclei\nmedium circular pinkish gray nuclei"
+    },
+    {
+      "seed": 194,
+      "parsed": [
+        "small oval pink nuclei",
+        "uniformly round pale blue nuclei"
+      ],
+      "free_form": "small oval pink nuclei\nuniformly round pale blue nuclei",
+      "raw_response": "small oval pink nuclei\nuniformly round pale blue nuclei"
+    },
+    {
+      "seed": 195,
+      "parsed": [
+        "small oval purple nuclei",
+        "medium round blue nuclei"
+      ],
+      "free_form": "small oval purple nuclei\nmedium round blue nuclei",
+      "raw_response": "small oval purple nuclei\nmedium round blue nuclei"
+    },
+    {
+      "seed": 196,
+      "parsed": [
+        "small ellipsoid lavender blue nuclei",
+        "compact round brick red nuclei"
+      ],
+      "free_form": "small ellipsoid lavender blue nuclei\ncompact round brick red nuclei",
+      "raw_response": "small ellipsoid lavender blue nuclei\ncompact round brick red nuclei"
+    },
+    {
+      "seed": 197,
+      "parsed": [
+        "small round pale blue nuclei",
+        "irregular to elliptical light purple nuclei"
+      ],
+      "free_form": "small round pale blue nuclei\nirregular to elliptical light purple nuclei",
+      "raw_response": "small round pale blue nuclei\nirregular to elliptical light purple nuclei"
+    },
+    {
+      "seed": 198,
+      "parsed": [
+        "small round紫蓝色 nuclei",
+        "medium ellipsoidal粉红色 nuclei"
+      ],
+      "free_form": "small round紫蓝色 nuclei\nmedium ellipsoidal粉红色 nuclei",
+      "raw_response": "small round紫蓝色 nuclei\nmedium ellipsoidal粉红色 nuclei"
+    },
+    {
+      "seed": 199,
+      "parsed": [
+        "small elliptical purple nuclei",
+        "uniformly round pale blue nuclei"
+      ],
+      "free_form": "small elliptical purple nuclei\nuniformly round pale blue nuclei",
+      "raw_response": "small elliptical purple nuclei\nuniformly round pale blue nuclei"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "mistral-7b_colon_rep1": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark blue"
+    ],
+    "shape_counts": {
+      "round": 34,
+      "oval": 33,
+      "round to oval": 6,
+      "irregularly shaped": 1,
+      "irregular": 1
+    },
+    "colour_counts": {
+      "pink": 29,
+      "dark blue": 4,
+      "dark-blue": 4,
+      "purple": 3,
+      "dark purple": 3,
+      "blue": 2,
+      "pinkish": 2,
+      "bluish-purple": 1
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. round to oval pink nuclei. round dark blue nuclei. oval dark blue nuclei. round to oval dark blue nuclei.",
+    "model": "mistral-7b",
+    "tissue": "colon",
+    "replicate": 1,
+    "source_file": "responses/CoNSeP/mistral-7b_colon_rep1.json"
+  },
+  "mistral-7b_colon_rep2": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "round": 31,
+      "oval": 31,
+      "round to oval": 5,
+      "round-to-oval": 3,
+      "elongated": 1,
+      "elliptical": 1,
+      "irregular": 1,
+      "irregularly shaped": 1
+    },
+    "colour_counts": {
+      "pink": 27,
+      "dark purple": 12,
+      "blue": 3,
+      "dark-blue": 3,
+      "purple": 3,
+      "pinkish": 3,
+      "light pink": 2,
+      "dark blue": 2
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. round to oval pink nuclei. oval dark purple nuclei. round dark purple nuclei. round to oval dark purple nuclei.",
+    "model": "mistral-7b",
+    "tissue": "colon",
+    "replicate": 2,
+    "source_file": "responses/CoNSeP/mistral-7b_colon_rep2.json"
+  },
+  "mistral-7b_colon_rep3": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "elongated"
+    ],
+    "colours": [
+      "pink",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "oval": 34,
+      "round": 33,
+      "round to oval": 2,
+      "elongated": 2,
+      "round-to-oval": 2,
+      "rounded": 2,
+      "circular": 1
+    },
+    "colour_counts": {
+      "pink": 25,
+      "dark purple": 6,
+      "dark-blue": 5,
+      "pinkish": 4,
+      "blue": 2,
+      "dark blue": 2,
+      "purple": 2,
+      "pale blue": 1
+    },
+    "prompt": "nuclei. oval pink nuclei. round pink nuclei. elongated pink nuclei. oval dark purple nuclei. round dark purple nuclei. elongated dark purple nuclei.",
+    "model": "mistral-7b",
+    "tissue": "colon",
+    "replicate": 3,
+    "source_file": "responses/CoNSeP/mistral-7b_colon_rep3.json"
+  },
+  "mistral-7b_colon_rep4": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "round": 34,
+      "oval": 31,
+      "round to oval": 5,
+      "irregular": 2,
+      "elongated": 1,
+      "circular": 1,
+      "elliptical": 1
+    },
+    "colour_counts": {
+      "pink": 30,
+      "dark purple": 6,
+      "purple": 5,
+      "pinkish": 2,
+      "light purple": 2,
+      "dark blue": 2,
+      "dark-blue": 2,
+      "blue": 1
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. round to oval pink nuclei. round dark purple nuclei. oval dark purple nuclei. round to oval dark purple nuclei.",
+    "model": "mistral-7b",
+    "tissue": "colon",
+    "replicate": 4,
+    "source_file": "responses/CoNSeP/mistral-7b_colon_rep4.json"
+  },
+  "mistral-7b_colon_rep5": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "round to oval"
+    ],
+    "colours": [
+      "pink",
+      "dark blue"
+    ],
+    "shape_counts": {
+      "round": 35,
+      "oval": 34,
+      "round to oval": 5,
+      "irregular": 2,
+      "elongated": 1
+    },
+    "colour_counts": {
+      "pink": 29,
+      "dark blue": 5,
+      "dark purple": 5,
+      "purple": 4,
+      "blue": 3,
+      "dark-blue": 2,
+      "dark brown": 1,
+      "black": 1
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. round to oval pink nuclei. round dark blue nuclei. oval dark blue nuclei. round to oval dark blue nuclei.",
+    "model": "mistral-7b",
+    "tissue": "colon",
+    "replicate": 5,
+    "source_file": "responses/CoNSeP/mistral-7b_colon_rep5.json"
+  },
+  "qwen2.5-7b_colon_rep1": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "rounded"
+    ],
+    "colours": [
+      "purple",
+      "pink"
+    ],
+    "shape_counts": {
+      "round": 31,
+      "oval": 22,
+      "rounded": 5,
+      "irregular": 4,
+      "irregularly shaped": 3,
+      "ellipsoid": 3,
+      "elongated": 2,
+      "oblong": 1
+    },
+    "colour_counts": {
+      "purple": 14,
+      "pink": 9,
+      "light purple": 7,
+      "blue": 7,
+      "pale blue": 7,
+      "pinkish": 7,
+      "brown": 6,
+      "pale pink": 4
+    },
+    "prompt": "nuclei. round purple nuclei. oval purple nuclei. rounded purple nuclei. round pink nuclei. oval pink nuclei. rounded pink nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "colon",
+    "replicate": 1,
+    "source_file": "responses/CoNSeP/qwen2.5-7b_colon_rep1.json"
+  },
+  "qwen2.5-7b_colon_rep2": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "elliptical"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 28,
+      "oval": 17,
+      "elliptical": 8,
+      "rounded": 7,
+      "irregular": 6,
+      "ellipsoid": 5,
+      "irregularly shaped": 2,
+      "round to oval": 2
+    },
+    "colour_counts": {
+      "pink": 14,
+      "purple": 12,
+      "blue": 10,
+      "pale blue": 10,
+      "pinkish": 8,
+      "light purple": 8,
+      "brown": 4,
+      "pale purple": 2
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. elliptical pink nuclei. round purple nuclei. oval purple nuclei. elliptical purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "colon",
+    "replicate": 2,
+    "source_file": "responses/CoNSeP/qwen2.5-7b_colon_rep2.json"
+  },
+  "qwen2.5-7b_colon_rep3": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "purple",
+      "pink"
+    ],
+    "shape_counts": {
+      "round": 29,
+      "oval": 19,
+      "irregular": 10,
+      "elliptical": 7,
+      "polygonal": 4,
+      "rounded": 4,
+      "elongated": 2,
+      "circular": 1
+    },
+    "colour_counts": {
+      "purple": 17,
+      "pink": 14,
+      "pale blue": 8,
+      "light purple": 6,
+      "blue": 5,
+      "pinkish": 5,
+      "pale purple": 3,
+      "pale pink": 3
+    },
+    "prompt": "nuclei. round purple nuclei. oval purple nuclei. irregular purple nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "colon",
+    "replicate": 3,
+    "source_file": "responses/CoNSeP/qwen2.5-7b_colon_rep3.json"
+  },
+  "qwen2.5-7b_colon_rep4": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "blue",
+      "pale blue"
+    ],
+    "shape_counts": {
+      "round": 33,
+      "oval": 23,
+      "irregular": 7,
+      "rounded": 4,
+      "ovoid": 3,
+      "elliptical": 3,
+      "circular": 2,
+      "round to oval": 1
+    },
+    "colour_counts": {
+      "purple": 11,
+      "pink": 11,
+      "pale blue": 11,
+      "blue": 11,
+      "pale pink": 6,
+      "light blue": 4,
+      "light purple": 4,
+      "brown": 3
+    },
+    "prompt": "nuclei. round blue nuclei. oval blue nuclei. irregular blue nuclei. round pale blue nuclei. oval pale blue nuclei. irregular pale blue nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "colon",
+    "replicate": 4,
+    "source_file": "responses/CoNSeP/qwen2.5-7b_colon_rep4.json"
+  },
+  "qwen2.5-7b_colon_rep5": {
+    "n": 40,
+    "shapes": [
+      "round",
+      "oval",
+      "irregular"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "round": 31,
+      "oval": 17,
+      "irregular": 8,
+      "round to oval": 5,
+      "elliptical": 5,
+      "polygonal": 4,
+      "ellipsoid": 3,
+      "circular": 3
+    },
+    "colour_counts": {
+      "pink": 14,
+      "purple": 13,
+      "blue": 9,
+      "light purple": 9,
+      "pale purple": 7,
+      "pale blue": 7,
+      "pinkish": 4,
+      "light blue": 3
+    },
+    "prompt": "nuclei. round pink nuclei. oval pink nuclei. irregular pink nuclei. round purple nuclei. oval purple nuclei. irregular purple nuclei.",
+    "model": "qwen2.5-7b",
+    "tissue": "colon",
+    "replicate": 5,
+    "source_file": "responses/CoNSeP/qwen2.5-7b_colon_rep5.json"
+  }
+}

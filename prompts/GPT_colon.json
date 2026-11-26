@@ -1,0 +1,32 @@
+{
+  "gpt_colon": {
+    "n": 10,
+    "shapes": [
+      "elongated",
+      "oval",
+      "round"
+    ],
+    "colours": [
+      "dark blue",
+      "purple"
+    ],
+    "shape_counts": {
+      "elongated": 10,
+      "round to oval": 5,
+      "oval": 5,
+      "round": 5,
+      "spindle": 2,
+      "flattened": 1,
+      "columnar": 1
+    },
+    "colour_counts": {
+      "purple": 10,
+      "dark blue": 10,
+      "hyperchromatic": 3,
+      "basophilic": 3
+    },
+    "prompt": "nuclei. elongated dark blue nuclei. oval dark blue nuclei. round dark blue nuclei. elongated purple nuclei. oval purple nuclei. round purple nuclei.",
+    "model": "gpt-4o",
+    "tissue": "colon"
+  }
+}

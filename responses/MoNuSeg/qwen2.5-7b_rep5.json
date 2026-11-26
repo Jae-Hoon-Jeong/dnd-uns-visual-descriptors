@@ -1,0 +1,715 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "instruction": "Please describe the typical visual characteristics of nuclei observed in an H&E stained colon tissue slide at 40x magnification. Focus on providing concise English phrases that capture the nuclei's geometric shape, staining color, and relative size.",
+  "format_hint": "\n\nAnswer with exactly two short noun phrases, one per line, nothing else. Each phrase must end with the word 'nuclei' and combine shape, colour and size, in the form:\n<size> <shape> <colour> nuclei\n<size> <shape> <colour> nuclei",
+  "decoding": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "seeds": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199
+    ]
+  },
+  "paper_vocab": [
+    "black",
+    "black-stained",
+    "circular",
+    "dark",
+    "dark-stained",
+    "deep",
+    "deep-purple",
+    "dense",
+    "elliptical",
+    "elongated",
+    "globular",
+    "intense",
+    "jet-black",
+    "oblong",
+    "oval",
+    "purple",
+    "rectangular",
+    "round",
+    "small",
+    "solid",
+    "spherical",
+    "tiny",
+    "violet"
+  ],
+  "summary": {
+    "seeds_run": 40,
+    "parsed": 38,
+    "fully_within_paper_vocab": 0,
+    "mean_in_vocab_ratio": 0.321,
+    "most_common_out_of_vocab": [
+      [
+        "to",
+        27
+      ],
+      [
+        "pale",
+        14
+      ],
+      [
+        "blue",
+        10
+      ],
+      [
+        "light",
+        10
+      ],
+      [
+        "pink",
+        9
+      ],
+      [
+        "sized",
+        7
+      ],
+      [
+        "irregularly",
+        6
+      ],
+      [
+        "shaped",
+        6
+      ],
+      [
+        "diameter",
+        6
+      ],
+      [
+        "irregular",
+        6
+      ],
+      [
+        "micrometers",
+        5
+      ],
+      [
+        "micrometer",
+        4
+      ],
+      [
+        "medium",
+        4
+      ],
+      [
+        "moderately",
+        4
+      ],
+      [
+        "uniformly",
+        4
+      ]
+    ]
+  },
+  "samples": [
+    {
+      "seed": 160,
+      "parsed": true,
+      "free_form": "Nuclei appear as small, oval to round shapes with a pale blue to pinkish hue due to weak nuclear staining compared to the surrounding cytoplasm. They are relatively uniform in size, typically ranging from 5 to 15 micrometers in diameter.",
+      "glip_prompt": "nuclei. small oval nuclei. pale blue to pinkish nuclei.",
+      "in_paper_vocab_ratio": 0.333,
+      "words_outside_paper_vocab": [
+        "blue",
+        "pale",
+        "pinkish",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 161,
+      "parsed": true,
+      "free_form": "Nuclei appear as small, round to oval structures with a distinct, deep purple to blue staining due to hematoxylin. They are relatively uniform in size, typically ranging from 5 to 15 micrometers in diameter.",
+      "glip_prompt": "nuclei. small round-to-oval deep purple nuclei. uniformly-sized blue nuclei.",
+      "in_paper_vocab_ratio": 0.5,
+      "words_outside_paper_vocab": [
+        "blue",
+        "round-to-oval",
+        "uniformly-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 162,
+      "parsed": true,
+      "free_form": "Nuclei appear as slightly oval to round shapes with a淡紫色至深蓝色的染色，大小均匀，通常约为2-5微米。",
+      "glip_prompt": "nuclei. small oval nuclei. purple-to-blue-stained nuclei.",
+      "in_paper_vocab_ratio": 0.667,
+      "words_outside_paper_vocab": [
+        "purple-to-blue-stained"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 163,
+      "parsed": true,
+      "free_form": "Nuclei appear as irregularly shaped structures, typically round to oval with variably defined edges. They stain a distinct bluish-purple hue, contrasting against the pink cytoplasm. Sizes range from small, pinpoint dots to larger, more prominent bodies, reflecting the diversity in cell types within the tissue.",
+      "glip_prompt": "nuclei. irregularly shaped bluish-purple nuclei. varied sizes round to oval nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "bluish-purple",
+        "irregularly",
+        "shaped",
+        "sizes",
+        "to",
+        "varied"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 164,
+      "parsed": true,
+      "free_form": "Nuclei in H&E stained colon tissue at 40x magnification are typically oval to round in geometric shape, appear light to dark purple in color due to hematoxylin staining, and vary in size, with most being about 20-30 µm in diameter.",
+      "glip_prompt": "nuclei. oval to round purple nuclei. light to dark purple 20-30 µm nuclei.",
+      "in_paper_vocab_ratio": 0.556,
+      "words_outside_paper_vocab": [
+        "light",
+        "m",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 165,
+      "parsed": true,
+      "free_form": "Nuclei appear as slightly ovoid to round shapes, with a uniform pink to purple staining color, indicating eosin and hematoxylin staining respectively. They range in size from approximately 5-15 micrometers in diameter, with an average of about 10 micrometers.",
+      "glip_prompt": "nuclei. pink to purple ovoid to round nuclei. micrometer diameter nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "diameter",
+        "micrometer",
+        "ovoid",
+        "pink",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 166,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification typically appear as oval to round shapes with a pale staining color, and vary in size from small to medium.",
+      "glip_prompt": "nuclei. oval-to-round pale-colored nuclei. small-to-medium-sized nuclei.",
+      "in_paper_vocab_ratio": 0.0,
+      "words_outside_paper_vocab": [
+        "oval-to-round",
+        "pale-colored",
+        "small-to-medium-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 167,
+      "parsed": true,
+      "free_form": "The nuclei in a H&E stained colon tissue slide at 40x magnification typically appear as oval to rounded shapes, with a pale eosinophilic (light pink) staining due to their nuclear proteins and chromatin. They are relatively small in size, generally less than 20 μm in diameter.",
+      "glip_prompt": "nuclei. oval-to-rounded pale-eosinophilic nuclei. small-sized nuclei.",
+      "in_paper_vocab_ratio": 0.0,
+      "words_outside_paper_vocab": [
+        "oval-to-rounded",
+        "pale-eosinophilic",
+        "small-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 168,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification typically appear as oval to round shapes with a pale to light pink staining due to their nuclear chromatin. They are generally small to medium-sized, with sizes varying but usually not exceeding 20 micrometers in diameter.",
+      "glip_prompt": "nuclei. oval to round pale to light pink nuclei. small to medium-sized nuclei.",
+      "in_paper_vocab_ratio": 0.3,
+      "words_outside_paper_vocab": [
+        "light",
+        "medium-sized",
+        "pale",
+        "pink",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 169,
+      "parsed": true,
+      "free_form": "In an H&E stained colon tissue slide at 40x magnification, nuclei typically appear as round or oval shapes. They are uniformly stained a deep purple to dark blue color, with the intensity of the stain varying slightly depending on the cell type and nuclear content. The size of the nuclei is relatively small to medium, generally ranging from 5-15 micrometers in diameter.",
+      "glip_prompt": "nuclei. round deep purple nuclei. small to medium oval dark blue nuclei.",
+      "in_paper_vocab_ratio": 0.667,
+      "words_outside_paper_vocab": [
+        "blue",
+        "medium",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 170,
+      "parsed": true,
+      "free_form": "The nuclei in an H&E stained colon tissue slide at 40x magnification are typically round to oval in shape, stained a pale to moderate purple or magenta, and vary in size from about 5-15 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to oval pale to moderate purple nuclei. micrometers diameter nuclei.",
+      "in_paper_vocab_ratio": 0.333,
+      "words_outside_paper_vocab": [
+        "diameter",
+        "micrometers",
+        "moderate",
+        "pale",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 171,
+      "parsed": true,
+      "free_form": "The nuclei in an H&E stained colon tissue slide at 40x magnification typically appear as small, irregularly shaped bodies with a pale to light pink staining color due to the eosin counterstain. They vary slightly in size but generally range from 5 to 10 micrometers in diameter.",
+      "glip_prompt": "nuclei. small irregular pale pink nuclei. compact varying light pink nuclei.",
+      "in_paper_vocab_ratio": 0.125,
+      "words_outside_paper_vocab": [
+        "compact",
+        "irregular",
+        "light",
+        "pale",
+        "pink",
+        "varying"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 172,
+      "parsed": true,
+      "free_form": "Nuclei are typically round to oval in shape, appear light to dark purple in color due to hematoxylin staining, and vary in size from 5 to 15 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to oval light to dark purple nuclei. to 15 micrometers nuclei.",
+      "in_paper_vocab_ratio": 0.444,
+      "words_outside_paper_vocab": [
+        "light",
+        "micrometers",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 173,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification are typically rounded to oval in shape, with a pale eosinophilic (pinkish) cytoplasmic outline, and a distinct nucleus that appears light blue to deep purple, depending on the stain intensity. They vary in size but generally range from 20 to 50 micrometers in diameter.",
+      "glip_prompt": "nuclei. rounded to oval pale pink nuclei. light blue to deep purple nuclei.",
+      "in_paper_vocab_ratio": 0.3,
+      "words_outside_paper_vocab": [
+        "blue",
+        "light",
+        "pale",
+        "pink",
+        "rounded",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 174,
+      "parsed": false,
+      "free_form": "Nuclei appear as irregularly shaped to slightly ovoid, uniformly stained dark purple or deep magenta against the pink cytoplasmic background. They vary in size but are generally small to medium in diameter, often less than 20 micrometers.",
+      "raw_response": "Irregularly shaped, small to medium sized, dark purple nuclei  \nUniformly stained, slightly ovoid, deep magenta nuclei"
+    },
+    {
+      "seed": 175,
+      "parsed": true,
+      "free_form": "Round to oval shape, pale blue to light purple staining, small to moderately sized.",
+      "glip_prompt": "nuclei. small pale blue to light purple nuclei. oval to round small to moderately sized nuclei.",
+      "in_paper_vocab_ratio": 0.385,
+      "words_outside_paper_vocab": [
+        "blue",
+        "light",
+        "moderately",
+        "pale",
+        "sized",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 176,
+      "parsed": true,
+      "free_form": "- Nuclei appear as irregularly shaped structures.\n- Generally stain pink to purple.\n- Relatively large compared to surrounding cytoplasm.\n- Variability in size and shape is common.",
+      "glip_prompt": "nuclei. large irregularly shaped pink-to-purple nuclei. variable generally pink-to-purple nuclei.",
+      "in_paper_vocab_ratio": 0.0,
+      "words_outside_paper_vocab": [
+        "generally",
+        "irregularly",
+        "large",
+        "pink-to-purple",
+        "shaped",
+        "variable"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 177,
+      "parsed": true,
+      "free_form": "Round to oval shapes, evenly distributed with no distinct borders; lightly to moderately stained in pale pink; generally smaller than 20 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to oval lightly stained pink nuclei. small uniformly sized nuclei.",
+      "in_paper_vocab_ratio": 0.333,
+      "words_outside_paper_vocab": [
+        "lightly",
+        "pink",
+        "sized",
+        "stained",
+        "to",
+        "uniformly"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 178,
+      "parsed": true,
+      "free_form": "Nuclei in H&E stained colon tissue at 40x magnification appear round to oval in shape, stained pale to moderate purple or magenta, and vary in size from small (about 5-10 μm) to medium (up to 20 μm).",
+      "glip_prompt": "nuclei. round to oval pale to moderate purple nuclei. small to medium sized nuclei.",
+      "in_paper_vocab_ratio": 0.364,
+      "words_outside_paper_vocab": [
+        "medium",
+        "moderate",
+        "pale",
+        "sized",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 179,
+      "parsed": true,
+      "free_form": "Nuclei appear as irregularly shaped to oval structures, often with a pale blue to purple color due to hematoxylin staining. They are generally smaller than 20 micrometers in diameter.",
+      "glip_prompt": "nuclei. irregular to oval pale blue-to-purple nuclei. small-sized nuclei.",
+      "in_paper_vocab_ratio": 0.167,
+      "words_outside_paper_vocab": [
+        "blue-to-purple",
+        "irregular",
+        "pale",
+        "small-sized",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 180,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification appear as irregular to oval-shaped structures with a relatively pale, light pink or eosinophilic stain. They are typically small, with sizes ranging from approximately 5-10 micrometers in diameter.",
+      "glip_prompt": "nuclei. irregular to oval pale pink nuclei. small eosinophilic nuclei.",
+      "in_paper_vocab_ratio": 0.286,
+      "words_outside_paper_vocab": [
+        "eosinophilic",
+        "irregular",
+        "pale",
+        "pink",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 181,
+      "parsed": true,
+      "free_form": "Nuclei appear as irregular to oval-shaped structures, stained deep purple to dark blue. They vary in size but are generally small to moderately sized compared to the surrounding cytoplasm.",
+      "glip_prompt": "nuclei. small-to-moderate irregular to oval-shaped deep purple-to-dark blue nuclei. variably-sized deep purple-to-dark blue nuclei.",
+      "in_paper_vocab_ratio": 0.182,
+      "words_outside_paper_vocab": [
+        "blue",
+        "irregular",
+        "oval-shaped",
+        "purple-to-dark",
+        "small-to-moderate",
+        "to",
+        "variably-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 182,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue slides at 40x magnification typically exhibit oval to irregularly shaped profiles, with a pale to moderately eosinophilic (pinkish) staining color due to their nuclear chromatin content. They generally range from 5 to 10 micrometers in diameter, varying in size depending on the cell type within the colonic epithelium.",
+      "glip_prompt": "nuclei. oval to irregular pale to moderately eosinophilic nuclei. to 10 micrometer diameter nuclei.",
+      "in_paper_vocab_ratio": 0.1,
+      "words_outside_paper_vocab": [
+        "diameter",
+        "eosinophilic",
+        "irregular",
+        "micrometer",
+        "moderately",
+        "pale",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 183,
+      "parsed": false,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification typically appear as small, oval to irregularly shaped structures with a relatively uniform blue or dark purple staining due to the nuclei's DNA content. They are usually smaller than the surrounding cytoplasm, with sizes varying but generally ranging from 5 to 10 micrometers in diameter.",
+      "raw_response": "Small, oval to irregularly shaped, blue or dark purple nuclei\nUniformly sized, 5-10 micrometers in diameter, blue or dark purple nuclei"
+    },
+    {
+      "seed": 184,
+      "parsed": true,
+      "free_form": "Nuclei appear as small, round to oval structures with a slightly pale or pinkish staining compared to the surrounding tissue. They are typically uniform in size, ranging from 5 to 10 micrometers in diameter.",
+      "glip_prompt": "nuclei. small round nuclei. uniformly pale pink nuclei.",
+      "in_paper_vocab_ratio": 0.4,
+      "words_outside_paper_vocab": [
+        "pale",
+        "pink",
+        "uniformly"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 185,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue slides at 40x magnification are typically oval to rounded in shape, with a uniform light to medium blue stain due to the presence of DNA. They vary in size but generally range from 5 to 10 micrometers in diameter.",
+      "glip_prompt": "nuclei. oval to rounded light to medium blue nuclei. to 10 micrometer diameter nuclei.",
+      "in_paper_vocab_ratio": 0.1,
+      "words_outside_paper_vocab": [
+        "blue",
+        "diameter",
+        "light",
+        "medium",
+        "micrometer",
+        "rounded",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 186,
+      "parsed": true,
+      "free_form": "Nuclei appear as irregularly shaped, often elliptical to oval structures. They are lightly stained, typically呈现淡紫色或蓝紫色，大小相对均匀，大约为细胞直径的1/3到1/2。",
+      "glip_prompt": "nuclei. irregularly shaped lightly stained nuclei. small to medium sized elliptical nuclei.",
+      "in_paper_vocab_ratio": 0.222,
+      "words_outside_paper_vocab": [
+        "irregularly",
+        "lightly",
+        "medium",
+        "shaped",
+        "sized",
+        "stained",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 187,
+      "parsed": true,
+      "free_form": "- Oval to round geometric shape\n- Uniformly pale pink to light purple staining color\n- Relatively small size compared to surrounding cells",
+      "glip_prompt": "nuclei. small uniformly oval-to-round nuclei. pallid-pink to light purple staining nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "light",
+        "oval-to-round",
+        "pallid-pink",
+        "staining",
+        "to",
+        "uniformly"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 188,
+      "parsed": true,
+      "free_form": "- Nuclei appear as oval to irregularly shaped structures.\n- Staining is uniformly pale blue or light purple.\n- Relative size ranges from approximately 5-15 micrometers in diameter.",
+      "glip_prompt": "nuclei. oval to irregular pale blue nuclei. micrometer diameter nuclei.",
+      "in_paper_vocab_ratio": 0.143,
+      "words_outside_paper_vocab": [
+        "blue",
+        "diameter",
+        "irregular",
+        "micrometer",
+        "pale",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 189,
+      "parsed": true,
+      "free_form": "Nuclei in H&E stained colon tissue slides at 40x magnification typically appear as round or ovoid in shape, with a pink to light purple hue due to the nuclear staining by hematoxylin. They are relatively small, usually around 5-10 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to ovoid pink to light purple nuclei. small to medium-sized nuclei.",
+      "in_paper_vocab_ratio": 0.3,
+      "words_outside_paper_vocab": [
+        "light",
+        "medium-sized",
+        "ovoid",
+        "pink",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 190,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification typically appear as irregularly shaped, often oval to slightly elongated structures. They are lightly stained with a pale to moderate pink color due to the eosin dye. The nuclei are usually moderately sized, with diameters generally ranging from 5-15 micrometers, depending on the specific cell type within the colon tissue.",
+      "glip_prompt": "nuclei. irregularly shaped pale pink nuclei. moderately sized oval nuclei.",
+      "in_paper_vocab_ratio": 0.143,
+      "words_outside_paper_vocab": [
+        "irregularly",
+        "moderately",
+        "pale",
+        "pink",
+        "shaped",
+        "sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 191,
+      "parsed": true,
+      "free_form": "The nuclei in a hematoxylin and eosin (H&E) stained colon tissue slide at 40x magnification typically appear as irregularly shaped structures with a relatively large size. They are stained in a deep blue to purplish hue due to hematoxylin. The nuclei often display a varied geometric form, ranging from ovoid to elongated or even fragmented shapes, reflecting the cellular heterogeneity within the tissue sample.",
+      "glip_prompt": "nuclei. large irregularly shaped deep blue nuclei. elongated ovoid purplish nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "blue",
+        "irregularly",
+        "large",
+        "ovoid",
+        "purplish",
+        "shaped"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 192,
+      "parsed": true,
+      "free_form": "- Nuclei are generally oval to rounded in shape.\n- Stain appears dark purple to deep blue.\n- Size varies but averages approximately 10-20 micrometers in diameter.",
+      "glip_prompt": "nuclei. oval to rounded dark purple nuclei. micrometers diameter nuclei.",
+      "in_paper_vocab_ratio": 0.429,
+      "words_outside_paper_vocab": [
+        "diameter",
+        "micrometers",
+        "rounded",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 193,
+      "parsed": true,
+      "free_form": "- Oval to irregularly shaped\n- Light to medium purple or magenta in color\n- Generally smaller than 20 micrometers in diameter",
+      "glip_prompt": "nuclei. oval-to-irregular light-to-medium purple nuclei. small-sized nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "light-to-medium",
+        "oval-to-irregular",
+        "small-sized"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 194,
+      "parsed": true,
+      "free_form": "- Nuclei appear as round to oval shapes.\n- Stain with a deep purple or dark blue color.\n- Generally smaller in size compared to other cell components in the tissue.",
+      "glip_prompt": "nuclei. round to oval deep purple nuclei. small round to oval deep purple nuclei.",
+      "in_paper_vocab_ratio": 0.818,
+      "words_outside_paper_vocab": [
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 195,
+      "parsed": true,
+      "free_form": "- Nuclei are typically round to oval in shape.\n- Staining color is deep purple or dark violet.\n- Relative size ranges from 5-15 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to oval deep purple nuclei. micrometers round to oval nuclei.",
+      "in_paper_vocab_ratio": 0.667,
+      "words_outside_paper_vocab": [
+        "micrometers",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 196,
+      "parsed": true,
+      "free_form": "- Nuclei are round to oval in shape.\n- Stain uniformly dark purple to deep magenta.\n- Relative size varies but generally range from 5-15 micrometers in diameter.",
+      "glip_prompt": "nuclei. round to oval dark purple nuclei. micrometers uniform nuclei.",
+      "in_paper_vocab_ratio": 0.571,
+      "words_outside_paper_vocab": [
+        "micrometers",
+        "to",
+        "uniform"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 197,
+      "parsed": true,
+      "free_form": "- Nuclei are typically oval to round in shape.\n- Staining color is deep blue to purple.\n- Size is relatively uniform, ranging from 5 to 15 micrometers in diameter.",
+      "glip_prompt": "nuclei. deep blue round nuclei. uniformly sized oval nuclei.",
+      "in_paper_vocab_ratio": 0.5,
+      "words_outside_paper_vocab": [
+        "blue",
+        "sized",
+        "uniformly"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 198,
+      "parsed": true,
+      "free_form": "The nuclei in H&E stained colon tissue at 40x magnification typically appear as irregularly shaped or rounded structures. They are lightly stained, appearing pale or light purple in color against the darker stained cell cytoplasm. Relative sizes vary, but generally range from small, dot-like structures to slightly larger, more prominent shapes.",
+      "glip_prompt": "nuclei. irregularly shaped pale nuclei. small to medium-sized light purple nuclei.",
+      "in_paper_vocab_ratio": 0.25,
+      "words_outside_paper_vocab": [
+        "irregularly",
+        "light",
+        "medium-sized",
+        "pale",
+        "shaped",
+        "to"
+      ],
+      "exact_match_paper": false
+    },
+    {
+      "seed": 199,
+      "parsed": true,
+      "free_form": "The nuclei in an H&E stained colon tissue slide at 40x magnification typically exhibit a round to oval geometric shape, with a pinkish-staining color due to eosin counterstaining, and vary in size from small to moderately sized, with an average diameter ranging from about 5 to 15 micrometers.",
+      "glip_prompt": "nuclei. round to oval pinkish nuclei. small to moderately sized nuclei.",
+      "in_paper_vocab_ratio": 0.375,
+      "words_outside_paper_vocab": [
+        "moderately",
+        "pinkish",
+        "sized",
+        "to"
+      ],
+      "exact_match_paper": false
+    }
+  ]
+}

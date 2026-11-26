@@ -1,0 +1,411 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "tissue": "breast",
+  "instruction": "Please describe the typical visual characteristics of nuclei observed in an H&E stained breast tissue slide at 40x magnification. Focus on providing concise English phrases that capture the nuclei's geometric shape, staining color, and relative size.",
+  "format_hint": "\n\nAnswer with exactly two short noun phrases, one per line, nothing else. Each phrase must end with the word 'nuclei' and combine shape, colour and size, in the form:\n<size> <shape> <colour> nuclei\n<size> <shape> <colour> nuclei",
+  "decoding": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "seeds": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ]
+  },
+  "transformers_version": "4.57.6",
+  "torch_version": "2.6.0+cu124",
+  "samples": [
+    {
+      "seed": 120,
+      "parsed": [
+        "round to oval pink-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nVariable size, mostly distinct from surrounding tissue",
+      "raw_response": "Round to oval, pink-stained nuclei\nVariable size, mostly distinct from surrounding tissue"
+    },
+    {
+      "seed": 121,
+      "parsed": [
+        "large round pink nuclei",
+        "medium oval darker pink nuclei"
+      ],
+      "free_form": "Large round pink nuclei\nMedium oval darker pink nuclei (Chromatin areas)",
+      "raw_response": "Large round pink nuclei\nMedium oval darker pink nuclei (Chromatin areas)"
+    },
+    {
+      "seed": 122,
+      "parsed": [
+        "large oval-shaped pink nuclei",
+        "round blue-stained nuclei"
+      ],
+      "free_form": "Large oval-shaped pink nuclei\nRound blue-stained nuclei",
+      "raw_response": "Large oval-shaped pink nuclei\nRound blue-stained nuclei"
+    },
+    {
+      "seed": 123,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval dark-stained nuclei"
+      ],
+      "free_form": "Large round pink nuclei\nSmall oval dark-stained nuclei",
+      "raw_response": "Large round pink nuclei\nSmall oval dark-stained nuclei"
+    },
+    {
+      "seed": 124,
+      "parsed": [
+        "medium-sized round pink nuclei",
+        "oval-shaped dark stained nuclei"
+      ],
+      "free_form": "Medium-sized Round Pink nuclei\nOval-shaped Dark Stained nuclei",
+      "raw_response": "Medium-sized Round Pink nuclei\nOval-shaped Dark Stained nuclei"
+    },
+    {
+      "seed": 125,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval dark-stained nuclei"
+      ],
+      "free_form": "Large, round, pink nuclei\nSmall, oval, dark-stained nuclei",
+      "raw_response": "Large, round, pink nuclei\nSmall, oval, dark-stained nuclei"
+    },
+    {
+      "seed": 126,
+      "parsed": [
+        "large round pale nuclei",
+        "small oval dark nuclei"
+      ],
+      "free_form": "Large, round, pale nuclei\nSmall, oval, dark nuclei (or vice versa, depending on cell type)",
+      "raw_response": "Large, round, pale nuclei\nSmall, oval, dark nuclei (or vice versa, depending on cell type)"
+    },
+    {
+      "seed": 127,
+      "parsed": [
+        "round to oval pink-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nVarying in size, with some larger and some smaller nuclei",
+      "raw_response": "Round to oval, pink-stained nuclei\nVarying in size, with some larger and some smaller nuclei"
+    },
+    {
+      "seed": 128,
+      "parsed": [
+        "round to oval pink-stained nuclei",
+        "size varies centrally located nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nSize varies, centrally located nuclei",
+      "raw_response": "Round to oval, pink-stained nuclei\nSize varies, centrally located nuclei"
+    },
+    {
+      "seed": 129,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval darker-pink nuclei"
+      ],
+      "free_form": "Large, round, pink nuclei\nSmall, oval, darker-pink nuclei",
+      "raw_response": "Large, round, pink nuclei\nSmall, oval, darker-pink nuclei"
+    },
+    {
+      "seed": 130,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval dark-stained nuclei"
+      ],
+      "free_form": "Large round pink nuclei\nSmall oval dark-stained nuclei",
+      "raw_response": "Large round pink nuclei\nSmall oval dark-stained nuclei"
+    },
+    {
+      "seed": 131,
+      "parsed": [
+        "round to oval pink-stained nuclei",
+        "relatively small to medium slightly darker pink nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nRelatively small to medium, slightly darker pink nuclei",
+      "raw_response": "Round to oval, pink-stained nuclei\nRelatively small to medium, slightly darker pink nuclei"
+    },
+    {
+      "seed": 132,
+      "parsed": [
+        "round-to-oval pink-stained nuclei",
+        "variable-sized oval-shaped pink-stained nuclei"
+      ],
+      "free_form": "Round-to-oval, pink-stained nuclei\nVariable-sized, oval-shaped, pink-stained nuclei",
+      "raw_response": "Round-to-oval, pink-stained nuclei\nVariable-sized, oval-shaped, pink-stained nuclei"
+    },
+    {
+      "seed": 133,
+      "parsed": [
+        "approximately round pink-stained nuclei",
+        "slightly smaller than surrounding tissue nuclei"
+      ],
+      "free_form": "Approximately round, pink-stained nuclei\nSlightly smaller than surrounding tissue nuclei",
+      "raw_response": "Approximately round, pink-stained nuclei\nSlightly smaller than surrounding tissue nuclei"
+    },
+    {
+      "seed": 134,
+      "parsed": [
+        "round to oval pink-stained nuclei",
+        "small to medium darkly-staining nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nSmall to medium, darkly-staining nuclei",
+      "raw_response": "Round to oval, pink-stained nuclei\nSmall to medium, darkly-staining nuclei"
+    },
+    {
+      "seed": 135,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval blue-purple nuclei"
+      ],
+      "free_form": "Large round pink nuclei\nSmall oval blue-purple nuclei",
+      "raw_response": "Large round pink nuclei\nSmall oval blue-purple nuclei"
+    },
+    {
+      "seed": 136,
+      "parsed": [
+        "round pink nucleoli present nuclei",
+        "oval stained darker nuclei"
+      ],
+      "free_form": "Round, Pink nucleoli present nuclei\nOval, Stained darker (heterogeneous) nuclei",
+      "raw_response": "Round, Pink nucleoli present nuclei\nOval, Stained darker (heterogeneous) nuclei"
+    },
+    {
+      "seed": 137,
+      "parsed": [
+        "round pink nucleoli-defined nuclei",
+        "elongated pale-blue stained nuclei"
+      ],
+      "free_form": "Round, pink nucleoli-defined nuclei\nElongated, pale-blue stained nuclei (at 40x magnification in H&E stained breast tissue slide)",
+      "raw_response": "Round, pink nucleoli-defined nuclei\nElongated, pale-blue stained nuclei (at 40x magnification in H&E stained breast tissue slide)"
+    },
+    {
+      "seed": 138,
+      "parsed": [
+        "medium round pink nucleoli-defined nuclei",
+        "small oval pale pink nuclei"
+      ],
+      "free_form": "Medium, round, pink nucleoli-defined nuclei\nSmall, oval, pale pink nuclei",
+      "raw_response": "Medium, round, pink nucleoli-defined nuclei\nSmall, oval, pale pink nuclei"
+    },
+    {
+      "seed": 139,
+      "parsed": [
+        "medium-sized round pink nuclei",
+        "small oval dark-stained nuclei"
+      ],
+      "free_form": "Medium-sized round pink nuclei\nSmall oval dark-stained nuclei",
+      "raw_response": "Medium-sized round pink nuclei\nSmall oval dark-stained nuclei"
+    },
+    {
+      "seed": 140,
+      "parsed": [
+        "round to oval pink-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nSmall to medium, dark purple nucleoli",
+      "raw_response": "Round to oval, pink-stained nuclei\nSmall to medium, dark purple nucleoli"
+    },
+    {
+      "seed": 141,
+      "parsed": [
+        "medium-sized round pink nuclei",
+        "varying oval pink-stained nuclei"
+      ],
+      "free_form": "Medium-sized Round, Pink nuclei\nVarying, Oval, Pink-stained nuclei",
+      "raw_response": "Medium-sized Round, Pink nuclei\nVarying, Oval, Pink-stained nuclei"
+    },
+    {
+      "seed": 142,
+      "parsed": [
+        "round pinkish-stained nuclei",
+        "oval blue-stained nuclei"
+      ],
+      "free_form": "Round, pinkish-stained nuclei\nOval, blue-stained nuclei (pykomorphic)\n\nRound, darker-stained nuclei (hypermorphic)\nOval, pale-stained nuclei (normomorphic)",
+      "raw_response": "Round, pinkish-stained nuclei\nOval, blue-stained nuclei (pykomorphic)\n\nRound, darker-stained nuclei (hypermorphic)\nOval, pale-stained nuclei (normomorphic)"
+    },
+    {
+      "seed": 143,
+      "parsed": [
+        "round pink nucleoli visible nuclei",
+        "oval slightly darker than surrounding tissue nuclei"
+      ],
+      "free_form": "Round, pink nucleoli visible nuclei\nOval, slightly darker than surrounding tissue nuclei",
+      "raw_response": "Round, pink nucleoli visible nuclei\nOval, slightly darker than surrounding tissue nuclei"
+    },
+    {
+      "seed": 144,
+      "parsed": [
+        "round to oval pink-stained nuclei",
+        "large slightly irregular pale-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nLarge, slightly irregular, pale-stained nuclei",
+      "raw_response": "Round to oval, pink-stained nuclei\nLarge, slightly irregular, pale-stained nuclei"
+    },
+    {
+      "seed": 145,
+      "parsed": [
+        "round pink nucleoli-distinct nuclei",
+        "oval lightly-stained mostly homogeneous nuclei"
+      ],
+      "free_form": "Round, pink nucleoli-distinct nuclei\nOval, lightly-stained, mostly homogeneous nuclei",
+      "raw_response": "Round, pink nucleoli-distinct nuclei\nOval, lightly-stained, mostly homogeneous nuclei"
+    },
+    {
+      "seed": 146,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval darker-pink nuclei"
+      ],
+      "free_form": "Large, round, pink nuclei\nSmall, oval, darker-pink nuclei",
+      "raw_response": "Large, round, pink nuclei\nSmall, oval, darker-pink nuclei"
+    },
+    {
+      "seed": 147,
+      "parsed": [
+        "large round pink nuclei",
+        "small oval dark-stained nuclei"
+      ],
+      "free_form": "Large round pink nuclei\nSmall oval dark-stained nuclei",
+      "raw_response": "Large round pink nuclei\nSmall oval dark-stained nuclei"
+    },
+    {
+      "seed": 148,
+      "parsed": [
+        "large rounded pink nucleoli visible nuclei",
+        "varies in size generally oval faintly pink-stained nuclei"
+      ],
+      "free_form": "Large, rounded, pink nucleoli visible nuclei\nVaries in size, generally oval, faintly pink-stained nuclei",
+      "raw_response": "Large, rounded, pink nucleoli visible nuclei\nVaries in size, generally oval, faintly pink-stained nuclei"
+    },
+    {
+      "seed": 149,
+      "parsed": [
+        "round pink nucleoli visible nuclei",
+        "oval light pink staining nuclei"
+      ],
+      "free_form": "Round, pink nucleoli visible nuclei\nOval, light pink staining nuclei",
+      "raw_response": "Round, pink nucleoli visible nuclei\nOval, light pink staining nuclei"
+    },
+    {
+      "seed": 150,
+      "parsed": [
+        "large oval-shaped pink nuclei",
+        "medium round eosinophilic nuclei"
+      ],
+      "free_form": "Large oval-shaped pink nuclei\nMedium round eosinophilic nuclei",
+      "raw_response": "Large oval-shaped pink nuclei\nMedium round eosinophilic nuclei"
+    },
+    {
+      "seed": 151,
+      "parsed": [
+        "round pink nucleoli visible nuclei",
+        "oval pale pink to darker stained nuclei"
+      ],
+      "free_form": "Round, pink nucleoli visible nuclei\nOval, pale pink to darker stained nuclei",
+      "raw_response": "Round, pink nucleoli visible nuclei\nOval, pale pink to darker stained nuclei"
+    },
+    {
+      "seed": 152,
+      "parsed": [
+        "round to oval pink-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nSmall to large, dark purple nucleoli present",
+      "raw_response": "Round to oval, pink-stained nuclei\nSmall to large, dark purple nucleoli present"
+    },
+    {
+      "seed": 153,
+      "parsed": [
+        "round to oval pink-stained nuclei"
+      ],
+      "free_form": "Round to oval, pink-stained nuclei\nSmall to medium, darker pink nucleoli present",
+      "raw_response": "Round to oval, pink-stained nuclei\nSmall to medium, darker pink nucleoli present"
+    },
+    {
+      "seed": 154,
+      "parsed": [
+        "round pink nucleoli visible nuclei",
+        "sizeable oval slightly darker nuclei"
+      ],
+      "free_form": "Round, pink nucleoli visible nuclei\nSizeable, oval, slightly darker nuclei",
+      "raw_response": "Round, pink nucleoli visible nuclei\nSizeable, oval, slightly darker nuclei"
+    },
+    {
+      "seed": 155,
+      "parsed": [
+        "round pink nucleoli-visible nuclei",
+        "varying sizes oval light to dark pink nuclei"
+      ],
+      "free_form": "Round, pink nucleoli-visible nuclei\nVarying sizes, oval, light to dark pink nuclei",
+      "raw_response": "Round, pink nucleoli-visible nuclei\nVarying sizes, oval, light to dark pink nuclei"
+    },
+    {
+      "seed": 156,
+      "parsed": [
+        "round to oval pink staining nuclei"
+      ],
+      "free_form": "Round to oval, pink staining nuclei\nSmall to medium, dark purple nucleoli present",
+      "raw_response": "Round to oval, pink staining nuclei\nSmall to medium, dark purple nucleoli present"
+    },
+    {
+      "seed": 157,
+      "parsed": [
+        "round-to-oval pink-stained nuclei",
+        "pale-staining large nucleoli present nuclei"
+      ],
+      "free_form": "Round-to-oval, pink-stained nuclei\nPale-staining, large nucleoli present nuclei",
+      "raw_response": "Round-to-oval, pink-stained nuclei\nPale-staining, large nucleoli present nuclei"
+    },
+    {
+      "seed": 158,
+      "parsed": [
+        "oval dark-purple uniform nuclei"
+      ],
+      "free_form": "Round, pink nucleoli prominent\nOval, dark-purple uniform nuclei",
+      "raw_response": "Round, pink nucleoli prominent\nOval, dark-purple uniform nuclei"
+    },
+    {
+      "seed": 159,
+      "parsed": [
+        "large round pink nucleoli-dominant nuclei",
+        "small oval faintly stained nuclei"
+      ],
+      "free_form": "Large, round, pink nucleoli-dominant nuclei\nSmall, oval, faintly stained nuclei",
+      "raw_response": "Large, round, pink nucleoli-dominant nuclei\nSmall, oval, faintly stained nuclei"
+    }
+  ]
+}

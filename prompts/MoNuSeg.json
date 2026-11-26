@@ -1,0 +1,342 @@
+{
+  "mistral-7b_rep1": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "blue",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "oval": 22,
+      "round": 21,
+      "round to oval": 18,
+      "irregular": 13,
+      "rounded": 3,
+      "irregularly shaped": 3,
+      "oval to round": 2,
+      "elongated": 1
+    },
+    "colour_counts": {
+      "blue": 13,
+      "dark purple": 8,
+      "deep purple": 8,
+      "purple-blue": 7,
+      "purple": 6,
+      "intense purple": 3,
+      "dark blue": 3,
+      "intense blue": 2
+    },
+    "prompt": "nuclei. oval blue nuclei. round blue nuclei. round to oval blue nuclei. oval dark purple nuclei. round dark purple nuclei. round to oval dark purple nuclei.",
+    "source_file": "responses/MoNuSeg/mistral-7b_rep1.json"
+  },
+  "mistral-7b_rep2": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "blue",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "oval": 22,
+      "round": 19,
+      "round to oval": 17,
+      "irregular": 10,
+      "elongated": 9,
+      "rounded": 4,
+      "oval to round": 4,
+      "irregularly shaped": 3
+    },
+    "colour_counts": {
+      "dark purple": 9,
+      "blue": 9,
+      "purple": 8,
+      "purple-blue": 4,
+      "deep purple": 4,
+      "intense purple": 3,
+      "dark blue": 3,
+      "black": 2
+    },
+    "prompt": "nuclei. oval blue nuclei. round blue nuclei. round to oval blue nuclei. oval dark purple nuclei. round dark purple nuclei. round to oval dark purple nuclei.",
+    "source_file": "responses/MoNuSeg/mistral-7b_rep2.json"
+  },
+  "mistral-7b_rep3": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "round to oval"
+    ],
+    "colours": [
+      "dark purple",
+      "blue"
+    ],
+    "shape_counts": {
+      "oval": 24,
+      "round": 22,
+      "round to oval": 18,
+      "irregular": 9,
+      "elongated": 5,
+      "rounded": 3,
+      "columnar": 2,
+      "irregularly shaped": 1
+    },
+    "colour_counts": {
+      "dark purple": 11,
+      "blue": 10,
+      "purple": 7,
+      "deep purple": 4,
+      "black": 3,
+      "purple-blue": 3,
+      "dark blue": 2,
+      "intense blue": 2
+    },
+    "prompt": "nuclei. oval dark purple nuclei. round dark purple nuclei. round to oval dark purple nuclei. oval blue nuclei. round blue nuclei. round to oval blue nuclei.",
+    "source_file": "responses/MoNuSeg/mistral-7b_rep3.json"
+  },
+  "mistral-7b_rep4": {
+    "n": 40,
+    "shapes": [
+      "round to oval",
+      "oval",
+      "round"
+    ],
+    "colours": [
+      "blue",
+      "dark purple"
+    ],
+    "shape_counts": {
+      "round to oval": 22,
+      "round": 21,
+      "oval": 21,
+      "irregular": 9,
+      "elongated": 3,
+      "irregularly shaped": 3,
+      "rounded": 3,
+      "ovoid": 1
+    },
+    "colour_counts": {
+      "blue": 14,
+      "dark purple": 11,
+      "purple": 8,
+      "dark blue": 5,
+      "pink": 4,
+      "deep purple": 3,
+      "purple-blue": 2,
+      "intense purple-blue": 2
+    },
+    "prompt": "nuclei. round to oval blue nuclei. oval blue nuclei. round blue nuclei. round to oval dark purple nuclei. oval dark purple nuclei. round dark purple nuclei.",
+    "source_file": "responses/MoNuSeg/mistral-7b_rep4.json"
+  },
+  "mistral-7b_rep5": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round",
+      "irregular"
+    ],
+    "colours": [
+      "dark purple",
+      "purple"
+    ],
+    "shape_counts": {
+      "oval": 29,
+      "round": 26,
+      "irregular": 15,
+      "round to oval": 11,
+      "rounded": 4,
+      "elongated": 2,
+      "oval to round": 1,
+      "columnar": 1
+    },
+    "colour_counts": {
+      "dark purple": 10,
+      "purple": 6,
+      "dark blue": 5,
+      "purple-blue": 5,
+      "deep purple": 4,
+      "blue": 4,
+      "pinkish": 3,
+      "intense purple": 3
+    },
+    "prompt": "nuclei. oval dark purple nuclei. round dark purple nuclei. irregular dark purple nuclei. oval purple nuclei. round purple nuclei. irregular purple nuclei.",
+    "source_file": "responses/MoNuSeg/mistral-7b_rep5.json"
+  },
+  "qwen2.5-7b_rep1": {
+    "n": 40,
+    "shapes": [
+      "round to oval",
+      "oval",
+      "rounded"
+    ],
+    "colours": [
+      "blue",
+      "light purple"
+    ],
+    "shape_counts": {
+      "round to oval": 17,
+      "oval": 15,
+      "rounded": 13,
+      "irregularly shaped": 6,
+      "irregular": 4,
+      "oval to round": 4,
+      "ovals": 2,
+      "elongated": 2
+    },
+    "colour_counts": {
+      "blue": 7,
+      "light purple": 6,
+      "purple": 6,
+      "pale pink": 5,
+      "dark purple": 4,
+      "deep blue": 3,
+      "pink": 3,
+      "deep purple": 3
+    },
+    "prompt": "nuclei. round to oval blue nuclei. oval blue nuclei. rounded blue nuclei. round to oval light purple nuclei. oval light purple nuclei. rounded light purple nuclei.",
+    "source_file": "responses/MoNuSeg/qwen2.5-7b_rep1.json"
+  },
+  "qwen2.5-7b_rep2": {
+    "n": 40,
+    "shapes": [
+      "round to oval",
+      "oval",
+      "irregularly shaped"
+    ],
+    "colours": [
+      "purple",
+      "blue"
+    ],
+    "shape_counts": {
+      "round to oval": 21,
+      "oval": 15,
+      "rounded": 6,
+      "irregularly shaped": 6,
+      "elongated": 4,
+      "oval to round": 2,
+      "elliptical": 2,
+      "round": 2
+    },
+    "colour_counts": {
+      "purple": 5,
+      "blue": 4,
+      "light purple": 4,
+      "light pink": 3,
+      "pale pink": 3,
+      "pink": 3,
+      "deep purple": 2,
+      "violet": 2
+    },
+    "prompt": "nuclei. round to oval purple nuclei. oval purple nuclei. irregularly shaped purple nuclei. round to oval blue nuclei. oval blue nuclei. irregularly shaped blue nuclei.",
+    "source_file": "responses/MoNuSeg/qwen2.5-7b_rep2.json"
+  },
+  "qwen2.5-7b_rep3": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "round to oval",
+      "rounded"
+    ],
+    "colours": [
+      "pink",
+      "purple"
+    ],
+    "shape_counts": {
+      "oval": 20,
+      "round to oval": 15,
+      "rounded": 9,
+      "irregularly shaped": 7,
+      "irregular": 5,
+      "round": 3,
+      "oval to round": 2,
+      "elliptical": 1
+    },
+    "colour_counts": {
+      "pink": 7,
+      "purple": 7,
+      "pale blue": 5,
+      "blue": 4,
+      "pinkish": 3,
+      "deep blue": 3,
+      "deep purple": 3,
+      "dark blue": 2
+    },
+    "prompt": "nuclei. oval pink nuclei. round to oval pink nuclei. rounded pink nuclei. oval purple nuclei. round to oval purple nuclei. rounded purple nuclei.",
+    "source_file": "responses/MoNuSeg/qwen2.5-7b_rep3.json"
+  },
+  "qwen2.5-7b_rep4": {
+    "n": 40,
+    "shapes": [
+      "round to oval",
+      "oval",
+      "rounded"
+    ],
+    "colours": [
+      "purple",
+      "blue"
+    ],
+    "shape_counts": {
+      "round to oval": 18,
+      "oval": 11,
+      "rounded": 7,
+      "irregular": 6,
+      "oval to round": 5,
+      "irregularly shaped": 5,
+      "ovoid": 4,
+      "spherical": 1
+    },
+    "colour_counts": {
+      "purple": 12,
+      "blue": 10,
+      "dark purple": 4,
+      "light purple": 4,
+      "pinkish": 3,
+      "dark blue": 3,
+      "pale blue": 3,
+      "pale pink": 2
+    },
+    "prompt": "nuclei. round to oval purple nuclei. oval purple nuclei. rounded purple nuclei. round to oval blue nuclei. oval blue nuclei. rounded blue nuclei.",
+    "source_file": "responses/MoNuSeg/qwen2.5-7b_rep4.json"
+  },
+  "qwen2.5-7b_rep5": {
+    "n": 40,
+    "shapes": [
+      "oval",
+      "irregularly shaped",
+      "round to oval"
+    ],
+    "colours": [
+      "dark purple",
+      "purple"
+    ],
+    "shape_counts": {
+      "oval": 14,
+      "irregularly shaped": 13,
+      "round to oval": 12,
+      "oval to round": 7,
+      "rounded": 5,
+      "ovoid": 4,
+      "round": 3,
+      "irregular": 2
+    },
+    "colour_counts": {
+      "dark purple": 6,
+      "purple": 6,
+      "deep purple": 5,
+      "pale blue": 4,
+      "light purple": 4,
+      "blue": 3,
+      "dark blue": 3,
+      "deep blue": 3
+    },
+    "prompt": "nuclei. oval dark purple nuclei. irregularly shaped dark purple nuclei. round to oval dark purple nuclei. oval purple nuclei. irregularly shaped purple nuclei. round to oval purple nuclei.",
+    "source_file": "responses/MoNuSeg/qwen2.5-7b_rep5.json"
+  }
+}
